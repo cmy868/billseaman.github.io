@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+  font-weight: 300;
+}
+
+

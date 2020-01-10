@@ -1,0 +1,71 @@
+---
+layout: default
+section_id: pages
+members:
+- name: Bill Seaman
+  position: Researcher, Developer, Artist
+  avatar: images/bill.jpg
+  avatar_hover: images/bill.jpg
+
+bio: Seamans work often explores an expanded media oriented poetics through various technological means Recombinant Poetics. Such works often explore the combination and recombination of media elements and processes in interactive and generative works of art. Seaman enfolds image/music/text relations in these works, often creating all of the media elements and articulating the operative media-processes involved. He is self-taught as a musician/composer. Early on he discussed his notion of Structured Improvisation, employing specific fragments of his own improvisations and musical constructions as a compositional method. Initially explored via tape loops and layering processes in the 80's, he now facilitates this compositional methodology using the computer, in particular using the audio program Ableton Live.
+
+grants:
+  - title: 2005 - Video Production Grant - Avid / Boston Cyberarts
+    type: Large Format Photographic Signs - Castle Graphics / Boston Cyberarts
+
+  - title: 2003 Rockefeller Grant Nominee
+    type: Wexner - Video Artist Residency
+    location: Artslink Travel Grant
+
+  - title: 2002 - Langlois Foundation, Poly-sensing Environment
+    type: with Dr. Ingrid Verbauwhede, UCLA, Electrical Engineering, Mark Hanson, Bell Labs
+
+  - title: 2001 - Chancellor’s Fund for Academic Border Crossing, UCLA
+    type: with Dr. Ingrid Verbauwhede, Electrical Engineering
+    location: Los Angeles, CA
+
+  - title: 1996-99 - Research Fellow, Interactive Art University of Wales
+    type: CAIIA-Centre for Advanced Inquiry in Interactive Arts
+    location: Caerleon, Wales
+
+  - title: 1995 - Project Grant, Australian Film Commission
+    location: Sydney, Australia
+
+  - title: 1995 - Travel Grant, Australian Film Commission
+    location: Sydney, Australia
+
+  - title: 1992-93 - Australian Research Council
+    location: Sydney, Australia
+---
+
+<br>
+<br>
+<br>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="col-md-8 offset-md-2">
+        <div class="member">
+          <img src="{{site.url}}/{{member.avatar}}" alt="" >
+          <img class="colored" src="{{site.url}}/{{member.avatar_hover}}" alt="">
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+   <div class="col-md-8 offset-md-2">
+        <h2>Bio</h2>
+        <hr><hr>
+      <p>{{page.bio}}</p>
+  </div>
+</div>
+<div class="full">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+            <h2>Grants</h2>
+            <hr><hr>
+            {% for grant in page.grants %}
+                <h3>{{grant.title}}</h3>
+                <p>{{grant.type}}</p>
+                <p>{{grant.location}}</p>
+            {% endfor %}
+        </div>
+</div>

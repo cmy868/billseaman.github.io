@@ -1,0 +1,454 @@
+---
+layout: post
+section_id: portfolio
+title: Interactive Videodisc Production
+---
+
+# WHAT IS INTERACTIVE VIDEODISC?
+As viewers we are ordinarily accustomed to watching films or video tapes from beginning to end. Most cinema and television is intended to be seen in a linear manner, although many producers have sought to disrupt this straightforward flow of communication. Film and videomakers may be able to intervene in narrative processes in order to create complex structures of time and space, but ultimately the linear mode of cinema requires that audiences sit through an entire film or video without being able to actively influence the temporal and logical sequence of information presented by the maker. Home video recorders have certainly changed the ways in which we can now view such media. But it is the advent of interactive videodisc technology that allows viewers elaborate and controlled access to a plethora of audio-visual material.
+
+A videodisc player that has been linked to a computer (programmed to work in conjunction with a specially produced film/video) can allow viewers a high level of active participation in the viewing process. The options that this kind of non-linear system presents has generated a new approach to both the production and reception of film and video works.
+
+# A BRIEF HISTORY OF INTERACTIVE MEDIA
+The concept of interactive media has existed for centuries. In the mid 16th century, Guilio Camillo's Teatro Del Mundo was concieved of as a "memory theatre" working with associational connections between symbolic images and memory. A spectator would sit at a central location inside a portable wooden structure which contained seven groupings of information, each accessible from seven different levels. The viewer would engage with an environment designed to reveal secrets about the structure of the universe, from the microcosmic to the macrocosmic. On the walls of the Teatro Del Mundo were inscribed all of the signs and symbols of the Christian Renaissance: the stars, the planets, the Greek gods and their attributes, animals and plants, the elements and their alchemical symbols, the temperaments, the vices and virtues.
+
+The theatre also contained wooden drawers filled with written texts that combined all of these elements within a "universal book". Viewers made choices from a central location, which enabled them to explore information housed in containers in close proximity to the participant. The room was organised in tiers which grouped information that dealt with questions of the universe, expanding upon innumerable aspects of creation. The Teatro Del Mundo was to house files containing numerous writings presenting speeches based on Cicero and other classics. All of this information could be related to the subjects suggested by the images.
+
+In more recent times Marcel Duchamp created an "interactive" artwork entitled La Bo”te En Valise, which enabled spectators to view miniature reproductions of his major works. He also produced another related work, The Green Box, which presented a series of notes that poetically qualified the interpretation of some works included in La Bo”te En Valise. Duchamp's poetic phrases did not directly correspond to those works, but rather, presented a set of related observations that allowed the participant to complete the meaning through their own associations. The two works function in tandem as a springboard for non-linear thought.
+
+In 1945 Vannevar Bush, who was at the time scientific advisory to President Roosevelt, proposed a mechanized library and personalised filing system which he called the Memex. Although it was never built, Bush's writings and concepts proved to be a stimulus for further experimentation in interactivity. The mechanism was planned to be an elaborate storage device for books, records, and other communications. It could be driven by a user who would have quick access to specific cross-referenced information. This system was designed to use microfilm as a storage medium, which could also provide access to images, text and hand written memos entered into the machine by a scanning device. Bush described his system as an intelligent apparatus that could facilitate associative indexing--any selected item could be linked automatically to a related entry.
+
+The American researcher and visionary, Ted Nelson, coined the term "hypertext" in 1965. Hypertext is a database style system that makes intelligent links between various linguistic components. It could be likened to an electronic card filing system that gives the user instantaneous access to specific kinds of information. For example, a reader could ask the machine to list all entries related to a particular topic of interest, and be provided with instant access to all related entries. Nelson came up with the idea for a system (called Xanadu) that would connect all of the world's literature by computer within an environment the viewer could interact with. Such a truly universal hypertext environment has to date not been realised, although satellite links between library databases are fast approaching this ideal.
+
+It wasn't until a sophisticated editing system was created that the principles for hypertext could be implemented for a real-world purpose. In 1967 the Hypertext Editing System and FRESS (File Retrieval and Editing System) were built at Brown University, Rhode Island, under the leadership of Andries Van Dam, a contemporary of Nelson. FRESS was the first step to create a functioning user controlled language system.
+
+The Aspen Movie Map was the first hypermedia videodisc, created by Andy Lippman and the Architecture Machine Group at Massachusetts Institute of Technology in 1978. Like hypertext, hypermedia systems make intelliegent links between various kinds of entered material, including video, audio and text. The Movie Map was an elaborate documentation of the streets of Aspen, Colorado. By manipulating a joystick the viewer could gain access to footage shot with four cameras placed at 90 degree angles on a car. The system linked this visual and spatial information in order to simulate the actual movement of a car. A user could "drive" the four videodisc players by utilising the joystick interface, which would give the illusion of moving through Aspen.
+
+There were a number of hypermedia databases that were developed during the 1980s, including Filevision, Intermedia, and Guide. However it was not until 1987 that Apple introduced Hypercard (authored by Bill Atkinson) which quickly became an ideal hypermedia program for the average computer user. Hypercard is a system that allows a user to make an elaborate set of links between elements of language, image and sound. It provides people who do not write computer code with a means to create elaborate interconnected structures in a non-linear fashion. (An in depth discussion of the use of HyperCard in a videodisc project will follow in a later section.)
+
+# BRANCHING
+An elaborate "branching" diagram (which presents all of the viewing options in a logical configuration) is one of the most important aspects of a well conceived videodisc. Branching refers to the structure of all possible "segments" or still-viewing options available to the user. A segment is made up of a piece of video comprised of one or more frames. It is important to establish a flow chart of all the possible combinations of segements that a viewer might wish to explore when using an interactive installation.
+
+These elaborate branching diagrams provide the basis of all possible viewing options. The decisions made here will later be implemented in the design of an interactive menu system. Branching charts help keep track of all of the alternate options the viewer might make while navigating the given material. It is important to begin thinking about film/video material in terms of modules or segments which will be viewed by a user, based on their menu choices.
+
+# VIDEODISC PRODUCTION
+
+A videodisc is edited in a very similar fashion to linear video works. In fact, a linear video master tape forms the basis of all interactive videodiscs. When generating this master, the author must have a series of possible modular segments in mind. These segements can later form the basis of the possible options that will ultimately be presented to the viewer. The structuring of these options on the linear master is therefore of primary consideration to the maker of ineractive videodiscs.
+
+A videodisc may stand alone with a videodisc player or may be controlled by a computer with an appropriate interface and specific software. The disc is viewed on a standard video monitor or a computer equipped with a video board. The audio may be connected to the monitor or to an amplifier with speakers or headphones.
+
+Videodiscs are decoded for viewing with a laser. The laser can be moved rapidly from one section of the disc to another. Unlike waiting for a video to search for a segment, a videodisc player can search instantaneously to any individual frame on a disc, which contains 54,000 frames--the equivalent of 36 minutes of linear material on the PAL standard (30 minutes on NTSC). The longest search time is approximately 1.5 seconds--searching from the beginning of the disc to the end, although new players are getting faster. This extremely fast search time allows viewers to approach any segment on the disc in any order (a task which would take hours of search time on a standard videotape player). A computer can be programmed to display specific segments which are accessed via menus on the computer screen.
+
+A computer that is interfaced with the disc player can store additional information that relates to material on the disc. This information can augment the videodisc, providing additional text, sound, or related images that can be viewed at the same time that a particularly section of the disc is being accessed. The computer can also control the speed of playback and still-frame access. Thus the computer is used as a vehicle to navigate the disc in a non-linear fashion. This navigation is facilitated by choices the viewer makes with a menu. The menu contains buttons which control commands that drive the videodisc, telling it where to search and what to play. The viewer can make these choices in any order. Thus there are many different trajectories that the viewer can follow. This movement through multiple trajectories is often referred to as "non-linear" or "poly-linear" proceedure.
+
+# VIDEODISC TECHNICAL SPECIFICATIONS
+Videodiscs have specific attributes which make them fine vehicles for carrying information. There are two kinds of videodiscs--CAV (Constant Angular Velocity) and CLV (Constant Linear Velocity). A CAV disc allows the user to access any frame at any time on the disc. The term "angular" refers to the way the laser can read an individual frame. A CLV disc functions as a "linear" storage mode but has no still frame capability--although the viewer can skip forward or backward through lagre sections of material.
+
+On a PAL CAV disc there are 54,000 frames which can be broken down into 25 frames per second at 60 seconds per minute over 36 minutes. NTSC discs also have 54,000 frames but play at 30 frames per second, giving a total of 30 minutes linear video storage. An "industrial" style disc player can control the playback of a CAV disc in the following ways: Play Forward, Play Reverse, Still Frame (or advance through frames one at a time), Fast Forward (in the scan mode) and Fast Reverse (also in scan). Domestic players do not always have these functions available, nor do they contain a serial port for computer interface.
+
+A CLV disc holds more material per side (1 hour) but often some of the control functions mentioned above are unavailable. Many movies have been put on CLV discs because of the obvious benefits in duration. However, if one wishes to interact with these movies, it is necessary to utilise a CAV disc. New systems are currently being developed for CLV discs to be more interactive.
+
+SOME VIDEODISC PLAYERS AND THEIR DIFFERENCES
+As mentioned previously, there are two basic kinds of videodisc players: industrial and consumer. The industrial player has an RS232 port which allows it to be controlled by a computer. The consumer model cannot be computer controlled without buying additional hardware which ties into the remote control port. Most disc players will either be NTSC or PAL standard which mean they can play specific videodiscs designed for that standard. NTSC is a US and Japanese video standard while PAL can be found in Europe and Australia. Some disc players are switchable, allowing the user to change from PAL to NTSC. Certain consumer models will play multiple formats: Compact Disc (audio only), Videodisc and CDV which is a mini videodisc sold for the popular music market.
+
+One difference between PAL and NTSC discs is that NTSC can be mastered with stereo digital audio tracks in addition to the usual stereo analogue audio. Not all videodisc players can decode the digital audio on NTSC discs at this time.
+
+# STILL FRAME
+The still frame mode is one of the most versatile functions of videodisc technology. When image material is accessed in still mode on a CAV disc, each of the 54,000 frames is available for viewing. This is one of the videodisc's major advantages over video. Every still frame can be perfectly reproduced, without glitches or break up of the signal. Frames can be programmed to appear at specific intervals, or may be held for as long as the user desires. Without this sophisticated still-frame function, the presentation of images and/or text stored on single frames would be impossible.
+
+In the still mode the viewer can step through a segement one frame at a time, or view a "slide show" like succession of chosen stills. There is no audio available from the videodisc in still mode because the disc is parked on one frame which is continuously re-scan. However, digital audio housed in computer memory can be called up to play in conjunction with still frames. A still library will flash by at 25 frames/images/texts per second when the play mode is engaged. In this mode, audio can be decoded because the disc is moving at 25 frames per second. If the normal play mode on the disc is chosen, a moving sequence will look and sound like ordinary video.
+
+# RELATED FORMATS
+There are a number of formats that are related to videodisc in terms of their interactive functions. CD-I (Compact Disc Interactive) is like a compact disc that also includes video images which are accessed by a special computer, and is primarily intended for the consumer market. At this point in time it is most efficient for storing still images and digital sound, although much effort is being placed into facilitating high definition storage of full motion video.
+
+Many people believe CD-I will ultimately replace videodisc, once data compression of full motion video is achieved (by storing digital video code in less data space, and by compressing some of the picture information). It is thought that the average consumer will happily pay $200 more for a CD player which will also carry interactive video. Small Discman CD-I players are already available commercially in Japan from Sony. These players use a roller ball to move the interactive cursor through a small liquid crystal display screen. A home or business user can easily plug the system into their ordinary monitor. Another related format currently being developed for the consumer market is CDV (Compact Disc Video). Unlike CD-I, CDV actually is a mini videodisc.
+
+There are also a number of specific players designed to accept more than one format disc. CD-ROM (Compact Disc Read Only Memory) is an optical medium which can store large amounts of computer data. The disc is physically identical to an audio CD. CD-ROM players are designed to be much faster than audio CD players. They must be able to instantly access nonsequential data from different parts of the disc. CD ROM-XA (Extended Architecture) has interleaved sectors for audio, text, and images which can be read through an additional card installed in the computer. This form of CD-ROM may lead the way with interactive digital video in the future, but is currently in competition with CD-I.
+
+DVI (Digital Video Interactive) is another related system, created to transfer and compress video and audio for access with a personal computer.
+
+The Sony WORM (Write Once Read Many) disc system is a useful device that functions as a videodisc-like encoder and pressing unit in one. This technology enables the user to encode material with a high powered laser directly onto a disc. The laser produces a permanent change in the reflective characteristics of this disc which can be decoded as a video image. WORM systems can be computer controlled. Single frames can also be encoded, making the system ideal for medium resolution recording of single frame computer animations. There are two drawbacks to this method: the discs can only be used on the Sony system, and the resolution of the image is not up to the specifications of a standard videodisc. The Sony system is excellent for interactive production training, as it eliminates the cost of disc pressing.
+
+Video 8 players with a special interface can also be driven in an interactive manner. With this sytem the search time is very slow. A number of companies have recently standardised a device called the VBOX which allows computers to network, synchronise, and control various pieces of video and audio equipment.
+
+Although many of these systems present interesting alternatives, videodisc is still the most developed and widely available standard for interactive use at this time.
+
+# VIDEODISC PARADIGMS
+There are a number of videodisc paradigms, or models, that have been used in the past for interactive videodisc programming. These paradigms cover the basic functions inherent to all interactive videodisc design. An interactive videodisc designer can draw upon these functions and apply them, according to the specific needs of a given project.
+
+The paradigm dealing with narrative structures functions in the following manner. Consider the telling of a story where a viewer is watching a person come to a road with forking paths. The disc has been progammed to pause at this point. A menu for this section might suggest "If you want the character to go down the left side of the fork in the road, tap here" or "If you want the character to go down the right side of the road, tap here." Both corresponding visual segments have been recorded and layed down on the disc in different places. When the user enters their decision, the pre-programmed computer instantly drives the disc to the frame number of the chosen segment and plays it.
+
+In this way the narrative model presents a series of different ways to tell a visual story. Each variable in the story can be represented by a node in a branching diagram which displays all possible story variations. The videodisc editor must always keep the concept of these modular segments in mind, as all possible choices must adhere to the usual rules of story-telling. Each possible path must in turn lead to a plausible narrative outcome, presented in visual terms.
+
+The next paradigm is that of the instructional video. For example, a series of different parts of a machine may be presented on the screen. Consider the repair of a car. A different video sequence may be shot relating to the repair of each part of the car. The user can select the segment they wish to view based on their interest, by choosing a section from an image of the car. This image has "buttons", corresponding to each part, hidden behind it. Each button triggers the playback of a specific segment of the disc. The viewer might also ask for more information about a particular proceedure. Another kind of menu might contain a textual listing of each part. Each set of words on this list might also function as a button which allows the viewer to choose which segments will be viewed.
+
+A third model is that of the still-frame library or single image storage structure. Musems commonly use such libraries to store reproductions of all of their works. Often one frame will be used to hold an image of a work, while another adjacent still frame will hold text information which relates to the selected image. Text information and digitised sound can also be stored on a computer to function in tandem with a still-frame library. Still-frames may also be sequenced to form elaborate slide shows, using very little space on the disc--1/25th of a second for each PAL still-frame, or 1/30th of a second for each NTSC frame stored on the disc.
+
+Another kind of musem storage system works with a "motion segment". An object is placed on a slowly revolving platter and recorded onto disc. Since the disc can be stopped at any time for still frame viewing, the object can later be studied from all angles. Viewing the object in fast forward, visually speeds up this process of the rotation. It is easy to project the cataloging potential of videodisc, considering each disc holds 54,000 still images.
+
+Cataloging individual segments is another possible model. Let us say we have one hundred and twenty 15 second commercials that have been layed end to end on a video master and transferred to disc. We might generate a menu which lists a series of different categories of commercials i.e. car tires, clothing, insurance etc. When the viewer makes a menu choice on the computer relating to car tires, a new menu will appear, showing all the tire commercials indexed by brandname. The viewer could then select the option they were most interested in, instantly triggering that particular segment on the disc. The branching diagram for this example would show a main menu with a set of lines leading to a series of sub menus, with a set of lines leading to each individual segment.
+
+The "mapping" paradigm uses the storage capability of the disc to visually "map" an environment. The most famous example of this is the Aspen Project from MIT discussed above. This kind of spatial system allows a viewer to feel as if they are navigating through a space. Each branching node represents a literal change of direction. Hence the multiple views of the physical space encoded on the disc can be accessed by the participant.
+
+CBT (Computer Based Training) allows users to train for particular activities. A flight simulator couples an elaborate interface that duplicates the cockpit of a jet with a "mapped" airspace and runway. This kind of training device allows a user to experience, in a realistic manner, the natural movements of actual flight. Studies have shown that this kind of CBT increases the speed and quality of learning.
+
+Poetic approaches offer another set of models. A poetic structure can be open and associational in character. A user may make a menu choice that functions like a pun, leading them down one of several different branches that relate to a specific word. Nonsense and other linguistic aspects may also be explored by menu choices. Humour also has its place in this kind of interactive environment.
+
+I am currently working on a project called THE EXQUISITE MECHANISM OF SHIVERS. In this work a linguistic template has been created with ten "word slots" which together form a sentence. For each of these slots in the template I have made 33 variables which all make linguistic sense when "plugged in", but change the meaning of the sentence in each individual case. On the videodisc I have 330 different segments with words superimposed over each image. The viewer can "scroll through" the variables for each slot and choose a particular segment in order to build alternate sentences. When the viewer selects a specific word, the computer searches for the related video segment and plays it. If the viewer selects "play the sentence", the computer will find all of the segments individuallys, search and play them. Thus the disc functions as a poetic sentence generator that re-structures modular video and musical fragments. Such a system might well be applied in a learning environment.
+
+Games also present ideas for possible structures, although videodisc games often use a mixture of narrative and mapping structures, establishing branching based on story, a series of locations and a set of possible choices in relation to these variables.
+
+There is no limit to the kinds of structures that can be developed by combining aspects of all of the different paradigms described above. The flexibility of videodisc exploration and related computer programming will often call for the generation of new paradigms.
+
+# ATTRACT MODE
+Many interactive videodisc installations have an "attract mode" which attempts to entice the viewer into participation. A jingle or catchy piece of music accompanied by a video sequence may play consistently to attract the attention of passersby. Once the viewer interacts with the installation, this "loop" is automatically turned off and the rest of the interactive program commences. This kind of "attraction" is most often found in video-arcades and promotional advertising booths.
+
+# PRODUCTION BASICS
+When collecting material which will later be pressed on disc, there are a few aspects of basic production that are worth paying particular attention to. If you are shooting a videodisc project on film, some cameras have a special adaptor that may be fitted to alter the speed to either 25 frames per second (PAL) or 30 frames per second (NTSC). This ensure that there will be exactly one film frame for each videodisc frame. For mastering or eventual transfer to videodisc, any video format will suffice. A high resolution format like Betacam or one inch video best suites the play-back resolution of the videodisc.
+
+# CAMERA STRATEGIES
+When shooting for a disc it is best to keep in mind the nature of the videodisc still-frame. If an image is moving too quickly it may jitter when accessed in still-frame mode, as the motion has been captured within 1/50th of second (which is equivalent to one field. Two fields make up one frame.) As the videodisc player alternates between the two fields to produce a still, the image will have a kind of flicker if there is a difference between these two fields.
+
+It is also important (in terms of camera strategy) to keep in mind the eventual modularity of segments on the disc. Interactivity is ultimately achieved through the relation between alternate segments, which can present a number of different views of the same object or scene. In editing of a traditional linear work, the editor chooses the shot which best represents a scene--there is no alternate choice between segments. In the case of an interactive videodisc, the viewer may be the one who eventually makes that choice. For this reason, it is useful to refer to your branching diagram while shooting, to remember all the options that the viewer will later choose from. You may also wish to collect material that will only be pressed as a still frame on the disc.
+
+NTSC vs. PAL
+At the moment it is considerably cheaper to press an NTSC disc compared to a PAL disc. Even though we live in a country with PAL as a standard, it may make economic sense to try to work with NTSC equipment. However we should remember that such matters are always subject to change. There are presently rumors that PAL disc pressing will soon be close in price to that of NTSC.
+
+# SOUND
+Sound on a videodisc can be presented in stereo. There are two separate audio tracks which are both "addressable" (each track can be made available to the viewer as an interactive option). You may wish to place two separate mono tracks on the disc--one voice over and one music, or two separate voice over tracks. This is another option which offers flexibility, allowing different language versions to be included on the same disc. Digital audio can also be used and decoded by specific NTSC players. It is best to consult your videodisc pressing plant as how to best accommodate digital audio. Some new players allow for stereo analogue and stereo digital audio tracks in NTSC.
+
+# STORAGE CAPABILITIES
+As stated earlier there are 54,000 frames on a PAL or NTSC disc. One can divide material into any set of combinations of still-frame libraries and motion sequences as long as the total number of frames does not exceed 54,000. The still-frames will be placed on the master-tape as a series of individual edits in the on-line edit. Remember in planning for the on-line edit--it takes almost as much time to do a still frame edit as a motion segment (because of pre-roll time) so be sure to mention the amount of still-frames you wish to include to your editor at the one inch facility. If space is available it may be beneficial to lay down three copies of each still frame. This allows the disc to search to an alternate still if some dropout results on the disc.
+
+# THE LEVELS OF INTERACTIVITY
+A videodisc can be designed for more than one level of interactive use. A videodisc can be pressed to simply present linear material. In this case the disc has no extra index of information. This allows the viewer to examine the disc at will as a format of playing back encoded material like viewing a rented movie from a video store. The next level of viewing either contains chapter stops at particular frame numbers or some form of index which allows the viewer to enter frame numbers and search for them with a remote control. A series of chapter stops representing specific segments on the disc can be encoded during the disc's pressing. A list of specific time code points on the master tape must be listed for the pressing plant to facilitate this function. This 'chapter stop' may pause on a still frame which contains an index of headings and the corresponding frame numbers of particular locations of material on the disc. The viewer searches for these additional segments by entering the frame number on a remote control (this is much like in a book or magazine - "see page 45 for ..." in this case it is "enter frame number 4500 for ...". This kind of frame number index would be generated as text in the video realm and edited as a single frame on the video master. These chapters may be labeled on the cover of the disc, or displayed at any of the chapter stops.
+
+The next level of interaction is when the disc is coupled with a computer, pre-programmed to interact with a specific disc. In this instance segments or stills have been selected on a disc and their coordinates have been mapped into a computer program. The segments are defined by a beginning and ending frame number. This information will be nested behind the choice a viewer enters. A computer is programmed to present menus which enable the viewer to navigate the disc. In this case additional information relating to the content of the disc can be placed in the computer memory and not pressed on the disc master. This means that a film or video that was initially intended to be linear can be adapted to an interactive situation, with additional information presented through the computer. The computer can also store digital audio to augment the audio on the videodisc. This presentation of additional material is beneficial for the educational audience in that an entirely informational program can be developed to study any material pressed on a disc. This material can also be updated and added to, as new information becomes available. Graphic images that relate to the material on the disc can also be stored as part of a program designed for interactive use. Text can be stored in the digital realm (in computer memory) or on the videodisc.
+
+# TEXT OVERLAY
+The Voyager Press VideoStack for use with HyperCard on the Macintosh allows text to be contained on a computer, in memory. When activated this text is placed in the video realm on top of any image that has been selected on the disc. The following disc players are designed to facilitate this text overlay feature: the Pioneer 4200, Pioneer 6000A, 6010A and Sony 1200. The Sony 1200 allows for the most control in relation to the overlay font. Variables include height, width and character style. Older Pioneer players can display up to eight lines of overlay text. Newer models can display up to eleven lines of text. Pioneer 6000 and 6000A players can display up to nine lines of overlay text.
+
+In some computer environments equipped with a video board, computer graphics can mix seemlessly with videodisc imagery. I will be talking here primarily about the Macintosh system which presents a computer monitor next to the video monitor. I believe this system will be most widely available in that many schools and companies already have access to a computer and a monitor and will be able to set up an interactive system by purchasing a disc player and computer interface. Video display boards for computers are still expensive items.
+
+# "FIELDS"
+Every frame on the videodisc is made up of two fields of video. It is important to maintain a specific field dominance on the master tape. If the field dominance is not consistant, when the viewer enters still frame mode they may be selecting the second field of one image and the first field of another. Thus the still literally flickers between the two images, alternating them at 1/50th in PAL (1/60 of a second in NTSC).
+
+# VIDEO MASTERING
+When the disc master is being prepared, it is best to contact a pressing plant and ask for a list of specifications for the video master. This will include specific video levels and time-coding. A common disc problem is the innability to reproduce some saturated reds. You may have to color correct these instances during the on-line edit. A video engineer can easily make sure the system is set up in the manner specified by the pressing plant. You may wish to work with a one Inch facility which has completed other disc projects.
+
+In order to maintain the highest quality of resolution on your disc the following procedures are often followed. All material that you wish to have placed on the disc should be bumped up to one inch video in the standard you have chosen to work (i.e. NTSC or PAL). You may also use betacam as a master. Different time code numbers should be placed on each of the one inch or Betacam masters. It is best to also bump up any potential still-frames onto a master with time code. A series of time code window dubs will be generated from these one inch masters. The window dubs display a copy of the one inch material with a small window in the frame which carries a number telling the hours, minutes, seconds and frames. This window dub copy may be made on high or low band U-matic, VHS or even Video 8.
+
+The next stage is to log all of your material, noting down each shot with the corresponding time code numbers. In logging, it is often helpful to draw a small image to help remember the material next to the written description. You may also mark the images which are good enough to include on the disc. One can edit with the window dubs without the expense of an on-line studio.
+
+While you are editing it is also useful to start thinking about how each segment on the disc will work as a modular variable within your structure. It is best to make two different edits that help visualise how the edit will appear on disc. You may decide to press both of these edits on your master if you have enough space, or you may decide to press only the first part of the edit. The two segments of video will then function as options that might eventually complete two different ideas. The better you can define a branching diagram, the easier it will be to show your understanding of these possibilities in the potential viewing structure. You should be able to make a series of different edits that correspond to all of the possibilities you wish to make available on the disc.
+
+You may also choose to define the way in which segments relate after the disc has been pressed. Time-code numbers speed up the editing process. If you decide to make a sequence and remove one edit in the middle, time code numbers allow you to edit as many generations away from your original as you like. It is the timecode numbering that is important here, and not the generational quality of the video. When the video master is compiled from the off-line edit, each edit is cut from first generation material.
+
+When the editing is complete, the shots and their corresponding time code numbers must be systematically transcribed onto paper or a shotlister (a computer aided transcribing system). At this time you can also make notes about the visual effects you wish to use in the on-line editing room: dissolves, split screen, text overlay, digital effects etc.
+
+In constructing a still-frame library, a video printer can digitize a video image and allow one to print an instant still. These stills are available as cheap thermal monochromatic prints. By generating these prints from the time-code window dubs, one can quickly find the correct image during the on-line and perform the still frame edit. Each printed still has the frame number visible at the bottom.
+
+# DISC LAYOUT
+When you layout your edited segments onto your master you should keep the following in mind. If there is material that is likely to be viewed more often than other material, these segments should be placed on an adjacent part of the master (to speed up search time). You may wish to make one section of the disc run in a linear manner with no still frame information between each segment. At 25 frames per second, a still frame can flash by and look like a mistake. This problem can be solved by placing all still frames together on the disc in one general location. Another selection of material can be viewed in a linear manner. It may include segments that are linked together, with a brief period for searching between each section. When the disc searches for the next chosen segment, in a single disc system, the screen will go blank or present a single color. New disc players feature a built in frame buffer that grabs a frame, and holds it while searching for the next segment.
+
+# USING PRE-EXISTING MATERIAL
+A disc can be pressed using material which has previously been shot and edited. There are some problems in relation to field dominance that should be mentioned. An editor may need to check each edit point of pre-existing material for the correct field dominance. Sometimes a new master must be generated with corrected fields. The other possibility is to generate menus for computer control which will only trigger the viewing of specific material, pausing on appropriate frames (those where field dominance is not a problem). You may generate a specific branching diagram (structure/strategy) for material which was originally designed to be linear. When presenting already existiing material one may choose to include new information from the computer memory, consisting of alternate audio, texts, and/or animations. This allows the new author to present information that qualifies, augments or teaches the user about older information. For example, Voyager press has designed an interactive system that allows a CD to become a tool for learning about musical theory (interactive CD is made possible through the use of a CD ROM drive that doubles as a CD player). Other programs have been designed for film studies, presenting information relating to classic films. An old documentary could be updated, showing new facts and figures in an interactive environment.
+
+# PROGRAMMER AND GRAPHIC DESIGNER
+The Voyager VideoStack is one of the best programs available for basic interactive videodisc programming. For more elaborate programming it is best to work with a graphic designer and computer programmer as part of the production team.
+
+# DISC PRESSING
+After you have completed your one inch master, you can send the material to a disc pressing company to have a disc pressed. There are two kinds of videodiscs. A single 'check' disc can be pressed which does not have the same quality as a videodisc pressed from a glass master. A series of drop-outs (which look like scattered white specs) are visible as part of the image, though the resolution of the image still looks quite clear. This disc allows you to check whether your master has been made correctly in terms of field dominance. It also allows the programmer and graphic designer to begin the programming process. You may wish to fix-up any problems that have appeared on the master, before you press your final disc and make an edition.
+
+To make an edition of your work you must first have a glass master pressed at the plant. If you plan to press a second edition of the disc without creating a new master, you will have to pay a storage fee to store the master in a dust free environment A check disc is much more fragile than a disc pressed as part of an edition.
+
+# THE BUDGET
+There are some basic costs to keep in mind when budgeting for a videodisc production. Videodisc manufacture is not cheap by any means. A high quality video produciton represents only part of the cost of interactive videodisc production. It is best to approach local one inch video facilities and discuss your project. It is best to work with a facility which has completed other videodisc projects. They can give you an accurate figure for your on-line edit and may be able to provide a package deal for many of the different aspects related to the process of generating the videodisc master.
+
+The camera person should be aware of the kind of the kind of work needed for the eventual generation of video modules and still-frames. A camera system rental should be considered consisting of one of the following: Betacam, one inch, high band U-Matic, or at the low end of resolution, possibly Sony High 8 or Super VHS (although discs including super 8 film transfer and other low resolution formats have been produced).
+
+If you are renting a film camera remember to ask about the device that alters film speed to 25 fps (PAL) or 30 fps (NTSC) and to include the rental of this device in your budget. Film to tape transfer costs should also be considered. Depending on the scope of your project a sound studio equipped with timecode and multi-track audio equipment may be included. You may also wish to hire a person to work on background audio tracks or a modular score to work with your visuals. Digital audio is recommended because of the high fidelity sound reproduction qualities inherent to videodisc.
+
+You may also wish to record and encode digital audio which will be housed in the computer and can be called up by the viewer as an alternate sound source. Equipment can be rented to record an entirely digital sound track. A fairly inexpensive piece of equipment, a Mac-recorder, can be used to make digital audio files for the Macintosh. A more expensive piece of hardware and software from Sound-Designer allows one to use a Macintosh computer as a digital audio editing station. A complete digital mix can be facilitated with this piece of hardware / software using DAT as a source. The latest Macintosh computers include a mic and computer interface for just this purpose--recording digital audio (but without the high fidelity of the Sound-Designer software/hardware).
+
+Another item to budget for, is a computer. A Macintosh with a 20 magabyte hard disc is a good start. In one sense the level of quality of menu generation depends on the audience ultimately using the installation.
+
+If there is a problem with the first check-disc, a second check disc may also have to be pressed. Alterations to the on-line edit should also be considered. This may be part of an on-line package with the one inch facility, which covers a series of these items in one deal. A line item for the bump up of slides and still material to either one inch or Betacam format as well as the possible digitisation of these images for inclusion in the computer program should be included. The generation of window dubs allows for easier editing and will save money in the long run. An off-line editing system rental may also allow greater freedom of access for the editor. In a video disc editing situation, it is advisable to allow for a much greater period for off-line editing time in preparation for the disc than a normal video edit. Other line items include design of the cover of the disc, shipping of masters to the pressing plant, transportation, phone, photocopy use and laser printing of computer documents. It is best to work with a script of some kind as well as a branching diagram to determine the exact needs of an individual project.
+
+# AUTHORING SYSTEMS
+An authoring system allows a programmer to work with a computer which is interfaced to a videodisc player. The programmer maps out all of the possible segments on a disc and creates a menu system which allows a user to navigate through these segments. There are many different authoring systems on the market. It is best to talk to your computer dealer about what is available for the computer you may already own and to consider what your final interactive video-disc installation will look like. You should also check the national and international availability of equipment for the playback of your chosen system.
+
+# THE VOYAGER PRESS VIDEOSTACK AND HYPERCARD FOR MACINTOSH
+I am not a computer programmer. I use the Voyager Press VideoStack in conjunction with Hypercard on the Macintosh computer because of the relative ease it offers in generating menus. I also find that the Macintosh environment has become familiar to many people who would normally feel uncomfortable using a computer. For many people the cost of making a videodisc is prohibitive. The Voyager VideoStack is inexpensive (about $100) US and can produce immediate results.
+
+# THE VOYAGER VIDEOSTACK
+The Voyager VideoStack is a user friendly computer program for making interactive videodisc projects. The program contains the following features: a video resource installer which enables your computer to 'talk' to your videodisc player; ready-made video buttons which contain 50 different video functions that can be cut and pasted (like word processing) into your own
+
+HyperCard stack; video controllers that function as remote controls to help navigate your videodisc material; an event maker that allows you to define an event (like playing a specific segment of your material) and then automatically makes a button to perform this event; a slide tray which lets you play selected still-frames either manually or automatically; text overlay for machines described previously; video ideas that provide scripting ideas as well as examples for use in creating interactive video programs; and hyper talk video commands for HyperCard programmers.
+
+AN INTERACTIVE PROJECT CREATED WITH THE VOYAGER PRESS VIDEOSTACK
+THE WATCH DETAIL is an interactive videodisc installation that I completed in 1990. A poetic musing on time, it incorporates texts, a series of literal and metaphorical images related to the passage of time, and a musical score, to form a fugue-like network of observations. It was shot in NTSC on Betacam.
+
+An innitial branching diagram was drawn to help in the construction of menus. In considering different ways to lay the material on the disc, I decided to edit together elements from a basic set of categories, as modular sections. These included the following:
+
+1) WOOD
+
+2) STONE
+
+3) CLOCKS AND WATCHES
+
+4) THE AIRPORT
+
+5) ARCHITECTURE
+
+6) YARDS, GARDENS AND GROUNDS
+
+I programmed the work with Mark Abbate as special programming consultant for Macintosh HyperCard. I worked with the Voyager VideoStack software to map out all of the segments on the disc. This program allows one to move around on a videodisc (or check disc) and log in edit points. A logging menu and set of tools in the program allow one to define edit segments by indicating a location on the disc and clicking with the mouse, choosing an out point for the end of each segment. The user can also enter a description of the material. Once these locations have been entered one can choose "Make a Button". The program then generates a button. If one now clicks on that button, the chosen segment will be played on the disc.
+
+The HyperCard environment allows the user to copy each button into an individualised menu created on a "Card". Thus menus that trigger the playing of various edits can easily be constructed, one button at a time. Other buttons can be generated to allow the user to move from one menu to another, or to move to a "Card" with information about menus.
+
+The HyperCard environment allow for the personalised application of these ideas. Mark Abbate was instrumental in writing special sections of code for the more elaborate menus I was interested in generating. Mark also trained me in the use of HyperCard for this project. THE WATCH DETAIL would not have been completed without his special expertise in HyperCard programming. For this reason I suggest working with a programmer/consultant for more advanced projects. Elaborate menus can easily be made by an individual trained in the use of HyperCard, but a HyperText programmer can design specialised functions with your specific project needs in mind.
+
+The main menu of THE WATCH DETAIL contained buttons leading to the segments described above. It also presented an "Info" button and speed control icons (copied from the Voyager Press control buttons). An additional button on the main menu led to another menu containing another series of buttons. These in turn led to a set of different menus for the viewer to explore. Every menu contained an "Info" button that gave users additional information about how to use the system. Each menu also contained a button to take them back to the "Main" and "Alternate Functions" menus. Without a branching diagram it would be impossible to keep track of all of the variables that you wish to include in a presentation.
+
+# THE WATCH DETAIL INSTALLATION
+THE WATCH DETAIL installation consists of one NTSC videodisc, one NTSC video monitor, one Pioneer 4200 videodisc player, a Macintosh computer (MAC 2) equipped with preprogrammed Hypercard software, digital audio loops, videodisc interface, a mouse, a small reverb, a mixer, a stereo amplifier, speakers, a table and chair. The entire program fits onto two 800K floppy discs. The linear video material pressed onto the videodisc lasts approximately 1/2 hour.
+
+A user-friendly work station is provided for the viewer. The participant can sit down in front of two screens--the Macintosh screen and an adjacent video monitor. A printed set of directions instructs the viewer in the simple operation of the installation. The viewer is able to explore the videodisc material through an elaborate preprogrammed set of menus displayed on the Macintosh which they access via the mouse. The viewer can click on any word or image to navigate through the videodisc material.
+
+# THE POETICS OF TIME
+THE WATCH DETAIL explores notions of the passage of time in a number of ways. The work observes the intrinsic history that objects and locations communicate in terms of the physical state in which they have been recorded. A daily sense of time is registered through the capturing of certain light qualities. A seasonal sense of time is examined through the presentation of atmospheric / weather conditions, while a geological sense of time is suggested through the inclusion of a rock quarry and geological formations. The work also contains a series of short poetic texts dealing with the subject of time. These texts qualify and expand on the meanings of the images. The viewer also experiences their own sense of duration in relation to the time they invest in the work. The ability of the viewer to control the speed of playback of recorded material makes THE WATCH DETAIL a time-based work that in itself refers to the nature of time.
+
+The work is divided into a set of categories of observation: "WOOD", "STONE", "CLOCKS AND WATCHES", "THE AIRPORT", "ARCHITECTURE", as well as "YARDS, GARDENS AND GROUNDS". Many of these categories overlap and are cross referenced in the work. The videodisc embodies image sequences that record some of the different states in which these objects / sites can be found.
+
+As we live our day to day lives, we come in contact with places and objects that display their own intrinsic sense of history. We rarely follow a piece of wood from its place of origin in the woods to the chair in which we sometimes sit. A set of visual clues-- scratches, gouges, the style of the chair, an inscribed date, etc.--give us a sense of the object's place in history. Our changing sense of time comes from an accumulation of experiences, memories and projections. THE WATCH DETAIL presents a set of observations that point in a sensual manner to the internal processes of memory and the registering of the passage of time. The nature of editing--collecting and correlating images, language, and sound--also abstracts qualities of time. THE WATCH DETAIL is a poetic maze which provides a mental space for personal association and introspection.
+
+The menus allow viewers to experience the sequences of THE WATCH DETAIL according to their own active participation. The longest search time is one second (the amount of time it takes the laser to scan from the beginning to the end of the disc). Two menus THE MAIN MENU and the ALTERNATE FUNCTION DEVICES menu as well as a series of sub-menus allow the viewer to move through the material in the following manner:
+
+THE MAIN MENU
+
+WOOD
+
+STONE
+
+CLOCKS AND WATCHES
+
+THE AIRPORT
+
+ARCHITECTURE
+
+YARDS, GARDENS AND GROUNDS
+
+ALTERNATE FUNCTIONS MENU
+
+INFORMATION
+
+SPEED CONTROL ICONS
+
+The viewer is able to move from one category to another (i.e. from the "WOOD" category to the "STONE" category) by clicking on different words on the main menu with the mouse.
+
+Using the set of icons presented at the bottom of the main menu (fast reverse, slow reverse, still, play reverse, play forward, still, slow forward, and fast forward) the viewer can move from one image section to another within a given category i.e. from a chainsaw cutting a tree to a wooden chair. The viewer can choose the still frame icon and step through the disc one frame at a time.
+
+A set of audio loops have been programmed to be called up from computer memory to accompany viewing in slow motion. A Mac recorder was used to record the musical loops. A sound file was then created. A HyperText script was written to ask the computer to call up a specific loop whenever the viewer selected slow motion. Usually when viewing slow motion generated by the videodisc player, there is no audio.
+
+An "INFORMATION" button explains each menu choice. The viewer can also choose "ALTERNATE FUNCTIONS MENU" and the following options appear:
+
+FRAGMENT RECOMBINATION EDITOR
+
+COMPOSITE CATEGORY FINDER
+
+TEXT/STILL LIBRARY
+
+TEXT OVERLAYS
+
+PIVOTS
+
+LINEAR
+
+MAIN MENU
+
+INFORMATION
+
+The FRAGMENT RECOMBINATION EDITOR allows the viewer to define their own edit sequence from the videodisc material. They can move anywhere on the disc with a reproduced miniature "MAIN MENU". By clicking on "Begin" and "End" a video and sound fragment can be defined. After they have chosen a series of fragments from anywhere on the disc they can hit "ENTER" and view their own edits as a short movie.
+
+The COMPOSITE CATEGORY FINDER allows the viewer to look at one of the many possible composite edits made from material in the primary categories (WOOD, STONE etc). By selecting a set of specific categories with the mouse, the computer searches for one composite segment that contains an example from each category. This selection process is facilitated by inventing a code for each category. When the viewer makes a choice the computer searches for the first edit containing the appropriate combination of code letters, then searches and plays the single composite fragment.
+
+The TEXT/STILL LIBRARY choice leads to a library of over 300 poetic writings about time, superimposed on top of specific image frames. The viewer can move through the frames one at a time at their own pace, select a random frame, see a slide show, or view all of the frames very quickly. These texts augment and qualify visual material available through menus on the disc.
+
+The TEXT OVERLAYS menu, allows the viewer to superimpose a similar set of writings to those found in the TEXT/STILL LIBRARY over any image or sequence of images they select on the disc. The texts, housed and called up from the Macintosh, appear on the video monitor superimposed over the chosen still frame or motion sequence as well as on the Macintosh screen. The viewer can move anywhere on the disc and generate their own juxtapositions from the provided material. This allows for a large number of chance combinations of language/image relationships. The texts and images relate to each other via their subject matter (time). The viewer takes an active conceptual role in bridging the metaphorical distance between image and text, developing their own sets of relations.
+
+The PIVOTS menu allows the participant to view edits from a set of categories by clicking the mouse. An edit sequence might consist of an image of wooden floors, a pocket watch, a stone quarry, a plane taking off in the distance... These sequences are constructed utilizing edit fragments from all of the categories found on the MAIN MENU. Again, each edit on the disc has been codified. As the viewer makes a selection, the computer searches for an example that fits the chosen category. If the viewer chooses that set of categories again, the computer searches for an alternate set of selections.
+
+The LINEAR selection plays the set of main categories from beginning to end the way it is laid out on the disc, in real time.
+
+The participant is given the opportunity to navigate the material presented in THE WATCH DETAIL at their own rate and to repeat the viewing of chosen sections if desired. The viewer is able to watch the material at different playback rates and explore the various aspects of the videodisc. Thus the viewer explores a poly-linear maze of language, image and music relations, which in turn deal with the poetic nature of time. The viewer essentially constructs their own video experience based on a personal set of decisions. It is the layered fusing of these time-oriented observations into a poetic video maze (together with the chance juxtaposition of specific elements) that makes THE WATCH DETAIL a distinctive interactive project.
+
+KINDS OF INTERFACES
+When designing an interface for videodisc control there are two basic approaches. A language-based menu system allows one to select various words, while a graphics-based system allows the user to select icons or pictures to navigate the disc and alternate menus. A mixture of these two kinds of systems often works well, allowing the viewer to make some choices using pictures and some with words. There are three main ways that the viewer can enter their choices: using a mouse, a roller ball and selection button, or a touch screen. Some systems may also work by entering words prompted" from the menu.
+
+# THE USER LEARNING CURVE
+The aesthetics of the interface can bear a direct relation to the content on the disc. The more user-friendly the interactive environment becomes the easier it is for a user to make decisions through the interface. It may make sense to employ people who are not familiar with interactive projects to test an interface you are developing through different stages of production. An interface designer can often overlook simple problems that a novice will point to immediately. There are no true standards in terms of videodisc menu design. Some icons are becoming standard in the Macintosh environment which are in turn becoming associated with the HyperCard environment. Each new user has to learn how to "move around" within the system. The best interfaces minimise this learning time. The basic rule of interface design is to keep it simple. Keywords and icons must have a clear relationship to the material they call up. Users must be able to move from one menu to another with relative ease. An information or help button is often one of the most useful items to include on each menu.
+
+# SUMMARY
+Videodisc production is a vast undertaking. Along with the complexities of standard video production, videodisc pressing and programming form a challenging set of problems for the average video producer. Videodisc opens up an entirely new way of approaching filmmaking. The possibilities that arise in videodisc production are forming a new language for the traditional film/video maker. At times the endless possibilities of interactive videodisc seem to be more of a headache than a plausable means of communication and interaction. Once one has experienced a well designed videodisc installation, the active process becomes second nature.
+
+There is an indescribable pleasure in accessing material through such non-linear systems. The active involvement of the viewer inherent to videodisc presents a stimulating means of intellectual and entertaining engagement. Non-linear structures become a means to transcend traditional hierarchical structures associated with narrative, allowing for an involvement on the part of the viewer which in some cases emulates the associative nature of pure thought. The interconnective capabilities of videodisc allow viewers instant access to a diversity of information, at the click of a button. In an age of infinite information and finite time, interactive systems allow viewers access to information in a open and flexible manner. In this light, interactive videodiscs are the perfect medium for the 1990's.
+
+# GLOSSARY OF TERMS
+INTERACTIVE VIDEODISC PRODUCTION - INTERACTIVE VIDEODISC is a multi media system which is constructed by using a videodisc player that has been linked to a computer (programmed to work in conjunction with a specially produced film/video) that allow viewers a high level of active participation in the viewing process. Videodiscs are decoded for viewing with a laser. The laser can be moved rapidly from one section of the disc to another. Unlike waiting for a video to search for a segment, a videodisc player can search instantaneously to any individual frame on a disc, which contains 54,000 frames--the equivalent of 36 minutes of linear material on the PAL standard (30 minutes on NTSC). The longest search time is approximately 1.5 seconds--searching from the beginning of the disc to the end.
+
+The Memex is a mechanized library and personalised filing system proposed in 1945 by Vannevar Bush. The system could be driven by a user who would have quick access to specific cross-referenced information. This system was designed to use microfilm as a storage medium, which could also provide access to images, text and hand written memos entered into the machine by a scanning device.
+
+Hypertext is a database style system that makes intelligent links between various linguistic components. Ted Nelson, coined the term "hypertext" in 1965.
+
+FRESS (File Retrieval and Editing System) is a Hypertext Editing System built at Brown University, Rhode Island, under the leadership of Andries Van Dam. FRESS was the first step to create a functioning user controlled language system.
+
+The Aspen Movie Map was the first hypermedia videodisc, created by Andy Lippman and the Architecture Machine Group at Massachusetts Institute of Technology in 1978. The Movie Map was an elaborate documentation of the streets of Aspen, Colorado. By manipulating a joystick the viewer could gain access to footage shot with four cameras placed at 90 degree angles on a car.
+
+Hypercard authored by Bill Atkinson, introduced for Apple in 1987 was a user friendly program quickly became an ideal hypermedia application for the average computer user.
+
+Branching refers to the structure of all possible "segments" or still-viewing options available to the user of an interactive environment.
+
+A "branching" diagram presents all of the viewing options in a logical configuration of an interactive project.
+
+"non-linear" or "poly-linear" viewing is navigation through a video program facilitated by choices the viewer makes with a menu. The menu contains buttons which control commands that drive the videodisc, telling it where to search and what to play. The viewer can make these choices in any order. Thus there are many different trajectories that the viewer can follow. This movement through multiple trajectories is often referred to as a "non-linear" or "poly-linear" proceedure.
+
+CAV (Constant Angular Velocity) A CAV disc allows the user to access any frame at any time on the disc. The term "angular" refers to the way the laser can read an individual frame. A PAL CAV disc there are 54,000 frames which can be broken down into 25 frames per second at 60 seconds per minute over 36 minutes. NTSC discs also have 54,000 frames but play at 30 frames per second, giving a total of 30 minutes linear video storage.
+
+CLV (Constant Linear Velocity). A CLV disc functions as a "linear" storage mode but has no still frame capability--although the viewer can skip forward or backward through large sections of material.
+
+An "industrial" style disc player can control the playback of a CAV disc in the following ways: Play Forward, Play Reverse, Still Frame (or advance through frames one at a time), Fast Forward (in the scan mode) and Fast Reverse (also in scan). The industrial player has an RS232 port which allows it to be controlled by a computer.
+
+A "consumer" player functions as a playback device for CLV discs.
+
+The "still frame" mode is one of the most versatile functions of videodisc technology. When image material is accessed in still mode on a CAV disc, each of the 54,000 frames is available for viewing without glitches or break up of the signal.
+
+In the "still mode" the viewer can step through a segement one frame at a time, or view a "slide show" like succession of chosen stills. There is no audio available from the videodisc in still mode because the disc is parked on one frame which is continuously re-scan.
+
+CD-I (Compact Disc Interactive) is like a compact disc that also includes video images which are accessed by a special computer, and is primarily intended for the consumer market. Small Discman CD-I players are already available commercially in Japan from Sony. These players use a roller ball to move the interactive cursor through a small liquid crystal display screen. A home or business user can easily plug the system into their ordinary monitor.
+
+'CDV' is a mini videodisc.
+
+CD-ROM (Compact Disc Read Only Memory) is an optical medium which can store large amounts of computer data. The disc is physically identical to an audio CD. CD-ROM players are designed to be much faster than audio CD players. They must be able to instantly access nonsequential data from different parts of the disc.
+
+CD ROM-XA (Extended Architecture) has interleaved sectors for audio, text, and images which can be read through an additional card installed in the computer.
+
+DVI (Digital Video Interactive) is used to transfer and compress video and audio for access with a personal computer.
+
+WORM (Write Once Read Many) disc system is a useful device that functions as a videodisc-like encoder and pressing unit in one. This technology enables the user to encode material with a high powered laser directly onto a disc. The laser produces a permanent change in the reflective characteristics of this disc which can be decoded as a video image.
+
+Video 8 is a format of video which records onto small cassettes. It is primarily used in the home market.
+
+instructional video allows the user to select the segment they wish to view based on their interest, by choosing a section from a menu which provides some form of training or information.
+
+still-frame library or single image storage structure is commonly used to store single images. Often one frame will be used to hold an image of a work, while another adjacent still frame will hold text information which relates to the selected image.
+
+a "motion segment" for museum storage is created by placing an object on a slowly revolving platter and recording it onto disc.
+
+The "mapping" paradigm uses the storage capability of the disc to visually "map" an environment. This kind of spatial system allows a viewer to feel as if they are navigating through a space. Each branching node represents a literal change of direction. Hence the multiple views of the physical space encoded on the disc can be accessed by the participant.
+
+CBT (Computer Based Training) allows users to train for particular activities through interaction with a computer system and not the actual device.
+
+A flight simulator couples an elaborate interface that duplicates the cockpit of a jet with a "mapped" airspace and runway.
+
+an "attract mode" attempts to entice the viewer into participation through the use of a jingle or catchy piece of music accompanied by a video sequence which plays consistently to attract the attention of passersby.
+
+Betacam is a high resolution video format
+
+"one inch video" is a high resolution video format.
+
+one field - motion has been captured within 1/50th of second (which is equivalent to one field. Two fields make up one frame.)
+
+"modularity" of segments on the disc. Interactivity is ultimately achieved through the relation between alternate segments, which can present a number of different views of the same object or scene. In editing of a traditional linear work, the editor chooses the shot which best represents a scene--there is no alternate choice between segments. In the case of an interactive videodisc, the viewer may be the one who eventually makes that choice.
+
+Digital audio is a format which uses digital code to store sound information.
+
+THE LEVELS OF INTERACTIVITY - A videodisc can be designed for more than one level of interactive use. A videodisc can be pressed to simply present linear material. The next level of viewing either contains chapter stops at particular frame numbers or some form of index which allows the viewer to enter frame numbers and search for them with a remote control. A series of chapter stops representing specific segments on the disc can be encoded during the disc's pressing. The next level of interaction is when the disc is coupled with a computer, pre-programmed to interact with a specific disc.
+
+TEXT OVERLAY - The Voyager Press VideoStack for use with HyperCard on the Macintosh allows text to be contained on a computer, in memory. When activated this text is placed in the video realm on top of any image that has been selected on the disc.
+
+Video display boards - In some computer environments equipped with a video board, computer graphics can mix seemlessly with videodisc imagery.
+
+"FIELDS" - Every frame on the videodisc is made up of two fields of video. It is important to maintain a specific field dominance on the master tape. If the field dominance is not consistant, when the viewer enters still frame mode they may be selecting the second field of one image and the first field of another. Thus the still literally flickers between the two images, alternating them at 1/50th in PAL (1/60 of a second in NTSC).
+
+# VIDEO MASTERING - the pressing of the disc from a video master.
+
+time code - a system telling the hours, minutes, seconds and frame number of a specific image.
+
+A window dub copy may be made on high or low band U-matic, VHS or even Video 8. It contains a visual area with the time code of each frame from source tapes and is used for off line editing. When the editing is complete, the shots and their corresponding time code numbers must be systematically transcribed onto paper or a shotlister (a computer aided transcribing system).
+
+a video printer can digitize a video image and allow one to print an instant still.
+
+DISC LAYOUT - When you layout your edited segments onto your master you should keep the following in mind. If there is material that is likely to be viewed more often than other material, these segments should be placed on an adjacent part of the master (to speed up search time). You may wish to make one section of the disc run in a linear manner with no still frame information between each segment. At 25 frames per second, a still frame can flash by and look like a mistake. This problem can be solved by placing all still frames together on the disc in one general location. Another selection of material can be viewed in a linear manner.
+
+The Voyager VideoStack is one of the best programs available for basic interactive videodisc programming in a Macintosh environment.
+
+DISC PRESSING - After you have completed your one inch master, you can send the material to a disc pressing company to have a disc pressed.
+
+A single 'check' disc can be pressed which does not have the same quality as a videodisc pressed from a glass master. A series of drop-outs (which look like scattered white specs) are visible as part of the image, though the resolution of the image still looks quite clear. This disc allows you to check whether your master has been made correctly in terms of field dominance. It also allows the programmer and graphic designer to begin the programming process.
+
+glass master - To make an edition of your work you must first have a glass master pressed at the plant. If you plan to press a second edition of the disc without creating a new master, you will have to pay a storage fee to store the master in a dust free environment
+
+film for Videodisc - If you are renting a film camera remember to ask about the device that alters film speed to 25 fps (PAL) or 30 fps (NTSC)
+
+Additional digital audio - You may also wish to record and encode digital audio which will be housed in the computer and can be called up by the viewer as an alternate sound source. Equipment can be rented to record an entirely digital sound track. A fairly inexpensive piece of equipment, a Mac-recorder, can be used to make digital audio files for the Macintosh. A more expensive piece of hardware and software from Sound-Designer allows one to use a Macintosh computer as a digital audio editing station. AUTHORING SYSTEMS - An authoring system allows a programmer to work with a computer which is interfaced to a videodisc player. The programmer maps out all of the possible segments on a disc and creates a menu system which allows a user to navigate through these segments.
+
+THE VOYAGER VIDEOSTACK - The Voyager VideoStack is a user friendly computer program for making interactive videodisc projects. The program contains the following: a video resource installer which enables your computer to 'talk' to your videodisc player; ready-made video buttons which contain 50 different video functions that can be cut and pasted (like word processing) into your own HyperCard stack; video controllers that function as remote controls to help navigate your videodisc material; an event maker that allows you to define an event (like playing a specific segment of your material) and then automatically makes a button to perform this event; a slide tray which lets you play selected still-frames either manually or automatically; text overlay for machines described previously; video ideas that provide scripting ideas as well as examples for use in creating interactive video programs; and hyper talk video commands for HyperCard programmers.
+
+The HyperCard environment allows the user to copy each button into an individualised menu created on a "Card". Thus menus that trigger the playing of various edits can easily be constructed, one button at a time. Other buttons can be generated to allow the user to move from one menu to another, or to move to a "Card" with information about menus.
+
+INTERFACES - When designing an interface for videodisc control there are two basic approaches. A language-based menu system allows one to select various words, while a graphics-based system allows the user to select icons or pictures to navigate the disc and alternate menus.
+
+CAV (Continuous Angular Velocity) - Videodisc with 30 minutes on a side which allows for alternate speed controls
+
+CLV (Continuous Linear Velocity) - Videodisc which contains 60 minutes of material with limited control capabilities.
+
+Hypertext - interactive text environment
+
+CBT - Computer Based Training
+
+Compact disc - a small disc which carries digital audio only and is decoded by a laser.
+
+Interface - a mechanism which allows a viewer to interact with material on or connected to a computer.
+
+CD-I or Compact Disc Interactive stores a digital encoding of one's material on a disc which is accessed for viewing by being loaded into computer memory.
+
+CD-ROM - Compact Disc Read Only Memory - A disc which is digitally encoded and pressed once to be downloaded as digital information into a computer.
+
+DAT - A audio cassette machine which encodes and decodes digital audio. DAT Cassettes are smaller than standard analogue audio cassettes.
+
+DVI or Digital Video Interactive is a system created by Intell to transfer and compress video and audio for access within a PC environment.
+
+FRESS (File Retrieval and Editing System) was the first step to a real world interactive computer based language system.
+
+Hypertext -
+
+Interactive Media -
+
+NTSC - American Video Standard, 30 Frames Per Second
+
+Still Frame - Single frame of a videodisc which can be held indefinitely without picture breakup
+
+videodisc - A videodisc is a disc which is encoded with visual material which can be decoded by a laser.
+
+virtual environment
+
+V-Box - an interface which allows computers to talk to video and audio equipment enabling the equipment to be synchronized or driven by a host computer.
+
+Write Once Read Many - WORM - is a disc which is encoded one time (like a CD) but can be played back many times.
+
+Write Many Read Many - A kind of digital encoding of information whcih can be recorded over many times with different information. (DAT is a write many read many format.)
+
+hypermedia
+
+# BOOKS
+
+Chris Dercon, Theatregarden Bestiarium--The Garden as Theatre as Museum, MIT Press , Massachusetts, 1990.
+
+Danny Goodman, The Complete Hypercard Handbook, Bantam Books, New York, 1987.
+
+Jakob Nielson, Hypertext and Hypermedia , Academic Press, Inc. Harcourt Brace Jovanivich Publishers, New York, 1989.
+
+Steve Riggins et.al., The Voyager Videostack, Voyager Press, Santa Monica, 1989.
+
+Frances A. Yates, The Art of Memory, MIT Press, Massachusetts, 1987.
