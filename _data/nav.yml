@@ -4,7 +4,7 @@
 - name: Albums
   path: albums.html
 - name: Work
-  path: portfolio.html
+  path: work.html
 - name: Text
   path: texts.html
 - name: Contact
