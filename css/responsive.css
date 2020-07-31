@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1100px) { 
   .top-bar-section .dropdown {
     top: 70px;
     -webkit-transition-property: all;
@@ -10,7 +10,7 @@
 
   .top-bar-section .has-dropdown.hover > .dropdown, .top-bar-section .has-dropdown.not-click:hover > .dropdown {
     top: 90px; } }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1099px) {
   .top-bar-section .dropdown {
     top: 70px; }
 
@@ -40,10 +40,12 @@
 @media only screen and (max-width: 1240px) {
   .slides-navigation {
     display: none; } }
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1099px) {
   .top-bar-section.closed {
-    display: none; } }
-@media only screen and (max-width: 1024px) {
+    display: none; } 
+  .top-bar-section.closed.open {
+    display: block; } }
+@media only screen and (max-width: 1100px) {
   .top-bar {
     height: auto; }
 

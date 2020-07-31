@@ -219,14 +219,14 @@ pre {
 	white-space: pre;
 	overflow: auto;
 	border-radius: 3px;
+}
 
-	code, tt {
-		font-size: inherit;
-		white-space: pre-wrap;
-		background: transparent;
-		border: none;
-		padding: 0
-	}
+code, tt {
+    font-size: inherit;
+    white-space: pre-wrap;
+    background: transparent;
+    border: none;
+    padding: 0
 }
 
 blockquote > code,
@@ -235,3 +235,4 @@ p > code {
 	padding: 4px 6px;
 	white-space: nowrap;
 }
+

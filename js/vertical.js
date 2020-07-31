@@ -1,4 +1,8 @@
-$('.vertical').slick({ 
+var scrollCount = null;
+var scroll= null;
+var slider = $('.vertical');
+
+slider.slick({ 
     infinite: true,
     vertical: true,
     verticalSwiping: true,
@@ -6,8 +10,8 @@ $('.vertical').slick({
     pauseOnHover: true,
     zIndex: 1,
     speed: 300,
-    slidesToShow: 8,
-    slidesToScroll: 8,
+    slidesToShow: 6,
+    slidesToScroll: 2,
     arrows: false,
     responsive: [
         {
@@ -37,3 +41,21 @@ $('.vertical').slick({
         // instead of a settings object
     ]
 });
+
+
+slider.on('wheel', (function(e) {
+    e.preventDefault();
+
+    clearTimeout(scroll);
+    scroll = setTimeout(function(){scrollCount=0;}, 30);
+    if(scrollCount) return 0;
+    scrollCount=1;
+
+    if (e.originalEvent.deltaY < 0) {
+        $(this).slick('slickNext');
+    } else {
+        $(this).slick('slickPrev');
+    }
+}));
+
+

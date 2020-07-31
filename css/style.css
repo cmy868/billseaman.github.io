@@ -300,7 +300,7 @@ h1.white, h2.white, h3.white, h4.white, h5.white, h6.white {
 
 hr {
   border-color: #eee;
-  marign: 0; }
+  margin: 0; }
 
 .section-title {
   text-align: center;
@@ -969,7 +969,7 @@ nav.wrapper {
     transition-property: all; }
   .slide-info .image-wrapper {
     background-repeat: no-repeat;
-    backbround-position: left top;
+    background-position: left top;
     background-size: contain;
     width: 100%;
     height: 460px;
@@ -1184,8 +1184,8 @@ nav.wrapper {
     -webkit-transition-property: all;
     -moz-transition-property: all;
     transition-property: all; }
-  .fullscreen .welcome {
-    /*background-image: url(../images/@stock/welcome.png); */ }
+  /* .fullscreen .welcome {
+    /*background-image: url(../images/@stock/welcome.png); */ 
   .fullscreen .happy {
     background-image: url(../images/@stock/happy.png); }
   .fullscreen .arrows {
@@ -1198,8 +1198,8 @@ nav.wrapper {
     -ms-transform: Rotate(180deg);
     -o-transform: Rotate(180deg);
     transform: Rotate(180deg); }
-  .fullscreen .diamond {
-    /*background-image: url(../images/@stock/diamond-white.png);*/ }
+  /* .fullscreen .diamond {
+    /*background-image: url(../images/@stock/diamond-white.png);*/ 
   .fullscreen .slide.active .slide-info {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -1542,4 +1542,18 @@ form.update-form input.button:hover {
 }
 .pager .newer {
   float: left;
+}
+
+/*Index - lighten */
+.horizontal>.slick-list>.slick-track>.slick-slide>div>a>img:hover{
+  filter: brightness(5.00);
+}
+/*Index - Contrast */
+.vertical>.slick-list>.slick-track>.slick-slide>div>a>img:hover{
+  filter: contrast(1.75);
+}
+
+/*text-year-color*/
+.offset-md-2>.text-center>b{
+  color: #263959;
 }

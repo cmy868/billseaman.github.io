@@ -1,0 +1,38 @@
+---
+layout: gallery
+section_id: portfolio
+title: Epiphany
+---
+<br>
+<div class="full">
+    <div class="row">
+    <a href="../images/portfolio/EPIPHANY katalog.pdf" title="View more">
+         <div class="autoplay">
+         <div><img src="../images/portfolio/EPIPHANY katalog 1.jpg" width="720"></div>
+         <div><img src="../images/portfolio/EPIPHANY katalog 2.jpg" width="720"></div>
+         <div><img src="../images/portfolio/EPIPHANY katalog 3.jpg" width="720"></div>
+         <div><img src="../images/portfolio/EPIPHANY katalog 5.jpg" width="720"></div>
+         <div><img src="../images/portfolio/EPIPHANY katalog 6.jpg" width="720"></div>
+        </div>
+        </a>
+    </div>
+<br>
+ <br>
+<div class="Text_works" style="margin-left: 20%; margin-right: 20%; line-height:normal;">
+<div class="Text_title_works">
+<h2>Epiphany</h2>
+<br>
+<a href="../images/portfolio/epiphanyText.pdf"><h3>Download Text</h3></a>
+<a href="https://billseaman.bandcamp.com/album/the-epiphanies"><h3>Audio</h3></a>
+<br>
+<br>
+<div style='padding:75% 0 0 0;position:relative;'><iframe src='https://vimeo.com/showcase/6999687/embed' allowfullscreen frameborder='0' style='position:absolute;top:0;left:0;width:100%;height:100%;'></iframe></div>
+<br>
+<br>
+<p style="line-height:25px; font-size: 18px; padding-top: 1%; color: #666;">
+</p>
+</div>
+</div>
+<br>
+<br>
+

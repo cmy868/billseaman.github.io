@@ -1,4 +1,8 @@
-$('.albums').slick({
+var scrollCount = null;
+var scroll= null;
+var slider = $('.albums');
+
+slider.slick({
     infinite: true,
     vertical: true,
     verticalSwiping: true,
@@ -6,29 +10,29 @@ $('.albums').slick({
     pauseOnHover: true,
     zIndex: 1,
     speed: 300,
-    slidesToShow: 6,
-    slidesToScroll: 6,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     arrows: false,
     responsive: [
         {
         breakpoint: 1024,
         settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 4,
+            slidesToScroll: 1,
             infinite: true,
         }
         },
         {
         breakpoint: 600,
         settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2 
+            slidesToShow: 3,
+            slidesToScroll: 1 
         }
         },
         {
         breakpoint: 480,
         settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1
         }
         }
@@ -37,3 +41,20 @@ $('.albums').slick({
         // instead of a settings object
     ]
 });
+
+slider.on('wheel', (function(e) {
+    e.preventDefault();
+
+    clearTimeout(scroll);
+    scroll = setTimeout(function(){scrollCount=0;}, 25);
+    if(scrollCount) return 0;
+    scrollCount=1;
+
+    if (e.originalEvent.deltaY < 0) {
+        $(this).slick('slickNext');
+    } else {
+        $(this).slick('slickPrev');
+    }
+}));
+
+

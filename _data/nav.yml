@@ -1,12 +1,18 @@
-- name: About
-  path: about.html
-  section_id: pages
-- name: Albums
-  path: albums.html
 - name: Work
   path: work.html
-- name: Text
-  path: texts.html
+- name: Albums
+  path: albums.html
+- name: Books
+  path: books.html
+- name: Papers
+  path: Papers.html
+- name: Poetic Texts
+  path: PoeticTexts.html
+- name: Gallery
+  path: Gallery Section 2/gallery.html
+- name: About
+  path: about.html
 - name: Contact
   path: contact.html
-  section_id: contact
+- name: CV
+  path: CV/Resume_Seaman_02_20_2020.pdf

@@ -1,8 +1,12 @@
+var scrollCount = null;
+var scroll= null;
+var slider = $('.horizontal');
+
 $('.horizontal').slick({
     infinite: true,
     speed: 300,
-    slidesToShow: 12,
-    slidesToScroll: 12,
+    slidesToShow: 9,
+    slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: true,
     variableWidth: true,
@@ -11,7 +15,7 @@ $('.horizontal').slick({
         {
         breakpoint: 1024,
         settings: {
-            slidesToShow: 3,
+            slidesToShow: 6,
             slidesToScroll: 3,
             infinite: true,
         }
@@ -35,3 +39,20 @@ $('.horizontal').slick({
         // instead of a settings object
     ]
 });
+
+slider.on('wheel', (function(e) {
+    e.preventDefault();
+
+    clearTimeout(scroll);
+    scroll = setTimeout(function(){scrollCount=0;}, 20);
+    if(scrollCount) return 0;
+    scrollCount=1;
+
+    if (e.originalEvent.deltaY < 0) {
+        $(this).slick('slickNext');
+    } else {
+        $(this).slick('slickPrev');
+    }
+}));
+
+
