@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpagepost
 section_id: portfolio
 title: Notes and Observations on Artificial Games
 ---

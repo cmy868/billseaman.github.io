@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpagepost
 section_id: portfolio
 title: Consciousness Reframed II Nonsense Logic and Re-embodied Intelligence
 ---

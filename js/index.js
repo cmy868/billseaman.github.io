@@ -282,3 +282,8 @@ class Poem{
         }
     }
 }
+
+function cvDrop(){
+    document.querySelector("#cv-child2").style.display = "block";
+    document.querySelector("#cv-child1").style.display = "block";
+}

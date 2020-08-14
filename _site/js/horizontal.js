@@ -1,7 +1,6 @@
 var scrollCount = null;
 var scroll= null;
 var slider = $('.horizontal');
-
 $('.horizontal').slick({
     infinite: true,
     speed: 300,
@@ -55,4 +54,17 @@ slider.on('wheel', (function(e) {
     }
 }));
 
+var drop = false;
 
+function cvDrop(){
+    if (drop){
+        document.querySelector("#subcv").style.display = "none";
+        drop=false;
+    }
+    else{
+        document.querySelector("#subcv").style.display = "block";
+        drop=true;
+    }
+    // document.querySelector("#cv-child1>a>h5").style.display = "block";
+    // document.querySelector("#cv-child2>a>h5").style.display = "block";
+}

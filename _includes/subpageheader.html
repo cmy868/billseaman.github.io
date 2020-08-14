@@ -10,11 +10,11 @@
       </li>
     </ul>
     <div id="menu-toggler" class="right">
-      <a href='#'>
+      <a href="javascript:void(0);" class="icon" onclick="hamburger()">
         <i class="icon-arrows-hamburger-2"></i>
       </a>
     </div>
-    <section class='top-bar-section closed'>
+    <section class='top-bar-section closed' id="nav-top">
       <ul class='right' style="list-style-type: none;">
 
         {% for item in site.data.nav %}

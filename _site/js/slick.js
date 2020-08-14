@@ -38,6 +38,7 @@
             var _ = this, dataSettings;
 
             _.defaults = {
+                
                 accessibility: true,
                 adaptiveHeight: false,
                 appendArrows: $(element),
@@ -121,7 +122,7 @@
             };
 
             $.extend(_, _.initials);
-
+            _.changeDir = true;
             _.activeBreakpoint = null;
             _.animType = null;
             _.animProp = null;
@@ -404,10 +405,51 @@
 
     };
 
+//     Slick.prototype.autoPlayIterator = function () {
+
+//         var _ = this;
+
+//         if (_.options.infinite === false) {
+
+//             if (_.direction === 1) {
+// //here I make the change
+//                 if ((_.currentSlide + 1) === _.slideCount - 1 && _.options.changeDir)  {
+//                     _.direction = 0;
+//                 }
+
+//                 _.slideHandler(_.currentSlide + _.options.slidesToScroll);
+
+//             } else {
+//                 if ((_.currentSlide - 1 === 0)) {
+
+//                     _.direction = 1;
+
+//                 }
+
+//                 _.slideHandler(_.currentSlide - _.options.slidesToScroll);
+
+//             }
+
+//         } else {
+
+//             _.slideHandler(_.currentSlide + _.options.slidesToScroll);
+
+//         }
+
+//     };
     Slick.prototype.autoPlayIterator = function() {
 
         var _ = this,
+        slideTo;
+
+        if(down==true){
+            slideTo = _.currentSlide - _.options.slidesToScroll;
+            console.log(" go true");
+        }
+        if(down==false){
             slideTo = _.currentSlide + _.options.slidesToScroll;
+        }
+            
 
         if ( !_.paused && !_.interrupted && !_.focussed ) {
 

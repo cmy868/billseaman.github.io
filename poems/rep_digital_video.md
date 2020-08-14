@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpagepost
 section_id: portfolio
 title: Recombinant Poetics Emergent Explorations of Digital Video in Virtual Space
 ---

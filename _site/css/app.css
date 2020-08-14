@@ -4262,7 +4262,7 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #333333; }
+    background:#212529a6; }
     .top-bar-section ul li > a {
       color: #FFFFFF;
       display: block;
@@ -4459,7 +4459,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:1240px) {
   .top-bar {
     background: #333333;
     overflow: visible; }
@@ -4771,7 +4771,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  color: #333333;
+  color:#9ba8b3;
   font-family: "chivo";
   font-style: normal;
   font-weight: bold;

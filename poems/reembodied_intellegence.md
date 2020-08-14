@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpagepost
 section_id: portfolio
 title: Emergent Constructions Re-embodied Intelligence Within Recombinant Poetic Networks
 description: 

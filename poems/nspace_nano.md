@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: subpagepost
 section_id: portfolio
 title: Toward the Production of Nano-computers and in Turn Nano-related Emotive Virtual/Physical Environments
 ---

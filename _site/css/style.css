@@ -485,9 +485,9 @@ body {
   line-height: 1;
   padding-left: 15px; }
   .title-area h1 a {
-    color: #333;
+    color:#007bff;
     font-size: 18px;
-    font-family: "josefin sans";
+    /* font-family: "josefin sans"; */
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 10px; }
@@ -502,7 +502,7 @@ body {
   margin-top: -60px;
   position: relative; }
   #menu-toggler i {
-    background: #333;
+    background: #007bffde;
     color: #fff;
     font-size: 32px;
     display: block;
@@ -521,7 +521,7 @@ body {
     max-width: 100%; }
 
 .top-bar-section ul li > a {
-  font-family: "josefin sans";
+  /* font-family: "josefin sans"; */
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px; }
@@ -789,7 +789,7 @@ nav.wrapper {
   width: 49%; }
 
 .post, .recent-post {
-  color: #666;
+  color: #999999;
   border-bottom: 1px solid #eee;
   margin-bottom: 50px;
   padding: 0 5px 20px;
@@ -1547,13 +1547,62 @@ form.update-form input.button:hover {
 /*Index - lighten */
 .horizontal>.slick-list>.slick-track>.slick-slide>div>a>img:hover{
   filter: brightness(5.00);
+  cursor:url(../images/cursor.png) 10 3, auto;
 }
+.horizontal>.slick-list>.slick-track>.slick-slide>div>a>img{
+  cursor:url(../images/cursor.png) 10 3, auto;
+}
+a>h4:hover{
+  color:whitesmoke;
+  cursor:url(../images/cursor.png) 10 3, auto;
+}
+a>h1:hover{
+  color:whitesmoke;
+  cursor:url(../images/cursor.png) 10 3, auto;
+}
+a>h1{
+  cursor:url(../images/cursor.png) 10 3, auto;
+}
+a>h4{
+  cursor:url(../images/cursor.png) 10 3, auto;
+}
+
 /*Index - Contrast */
 .vertical>.slick-list>.slick-track>.slick-slide>div>a>img:hover{
   filter: contrast(1.75);
+  cursor:url(../images/cursor.png) 10 3, auto;
+  
 }
+.vertical>.slick-list>.slick-track>.slick-slide>div>a>img
+{cursor:url(../images/cursor.png) 10 3, auto;}
+
 
 /*text-year-color*/
 .offset-md-2>.text-center>b{
-  color: #263959;
+  color:#007bff;
 }
+
+/* footer */
+.index-footer{
+  position: absolute;
+  bottom: 0;
+  right:0;
+}
+
+footer{
+  color: #666;
+  font-size: 70%;
+}
+
+/* dropdown */
+#subcv{
+  display: none;
+}
+
+#subcv>li{
+  list-style: none;
+}
+
+/* cursor */
+
+body{cursor:url(../images/cursor.png) 10 3, auto;}
