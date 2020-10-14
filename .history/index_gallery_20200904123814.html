@@ -1,0 +1,115 @@
+---
+layout: default
+section_id: page
+
+works:
+- link_to: 29.jpg
+- link_to: 28.jpg
+- link_to: Acu.jpg
+- link_to: AHA-tunnel.jpg
+- link_to: AHA_Golden Gate Bridge.jpg
+- link_to: AHA_Lombard St..jpg
+- link_to: aha_tunnel2.jpg
+- link_to: apt.alt..jpg
+- link_to: apt.alt.jpg
+- link_to: apt.alt.still of Seaman by Bergmann.jpg
+- link_to: device for architecture inversion.jpg
+- link_to: etext.jpg
+- link_to: ex.mech1.jpg
+- link_to: ex.mech10.jpg
+- link_to: ex.mech11.jpg
+- link_to: ex.mech2.jpg
+- link_to: ex.mech3.jpg
+- link_to: ex.mech4.jpg
+- link_to: ex.mech5.jpg
+- link_to: ex.mech6.jpg
+- link_to: ex.mech7.jpg
+- link_to: ex.mech8.jpg
+- link_to: ex.mech9.jpg
+- link_to: Exq1.jpg
+- link_to: Homeostatic Rnage.png
+- link_to: How to Revive2.jpg
+- link_to: SHe.png
+- link_to: Making a path.jpg
+- link_to: MakingAPath.jpg
+- link_to: One Pulls Pivots at the Tip of The Tongue.png"
+- link_to: Shear.png
+- link_to: Telling motions.png
+- link_to: One Pulls Pivots at the Tip of The Tongue.png"
+- link_to: Shear.png
+- link_to: Telling motions.png
+- link_to: One Pulls Pivots at the Tip of The Tongue.png"
+- link_to: Shear.png
+- link_to: Telling motions.png
+- link_to: One Pulls Pivots at the Tip of The Tongue.png"
+- link_to: Shear.png
+- link_to: Telling motions.png
+
+---
+<!-- 
+<a href="/images/portfolio/Making a path.jpg" class="image">
+  <img src="/images/portfolio/Making a path.jpg" alt="">
+</a>
+
+<a href="/images/portfolio/MakingAPath.jpg" class="image">
+  <img src="/images/portfolio/MakingAPath.jpg" alt="">
+</a>
+
+<a href="/images/portfolio/One Pulls Pivots at the Tip of The Tongue.png" class="image">
+  <img src="/images/portfolio/One Pulls Pivots at the Tip of The Tongue.png" alt="">
+</a>
+
+<a href="/images/portfolio/Shear.png" class="image">
+  <img src="/images/portfolio/Shear.png" alt="">
+</a>
+
+<a href="/images/portfolio/Telling motions.png" class="image">
+  <img src="/images/portfolio/Telling motions.png" alt="">
+</a>
+
+<a href="/images/portfolio/various tools still7.jpg" class="image">
+  <img src="/images/portfolio/various tools still7.jpg" alt="">
+</a>
+
+<a href="/images/portfolio/Various Tools still1.jpg" class="image">
+  <img src="/images/portfolio/Various Tools still1.jpg" alt="">
+</a>
+
+<a href="/images/portfolio/Various Tools still2.jpg" class="image">
+  <img src="/images/portfolio/Various Tools still2.jpg" alt="">
+</a>
+
+<a href="/images/portfolio/various tools still8.jpg" class="image">
+  <img src="/images/portfolio/Various Tools still8.jpg" alt="">
+</a>
+
+<a href="/images/portfolio/Water Wheel.png" class="image">
+  <img src="/images/portfolio/Water Wheel.png" alt="">
+</a>
+
+<a href="/images/portfolio/waterCatalog.jpg" class="image">
+  <img src="/images/portfolio/waterCatalog.jpg" alt="">
+</a> --> 
+    <div class="gallery-section">
+      <div class="inner-width">
+        <div class="gallery">
+            {% for work in page.works %}
+            <a class = "image" href="images/portfolio/{{work.link_to}}">
+            <img src="images/portfolio/{{work.link_to}}" alt="">
+            </a>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(".gallery").magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery:{
+            enabled: true
+          }
+        });
+      </script>
