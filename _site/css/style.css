@@ -1578,6 +1578,9 @@ a>h4{
 
 
 /*text-year-color*/
+.offset-md-2>.text-center>.work_list>.work_child>b{
+  color:#007bff;
+}
 .offset-md-2>.text-center>b{
   color:#007bff;
 }
@@ -1606,3 +1609,24 @@ footer{
 /* cursor */
 
 body{cursor:url(../images/cursor.png) 10 3, auto;}
+
+/* top btn */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(25, 74, 235, 0.822);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#myBtn:hover {
+  background-color: rgba(101, 119, 226, 0.795);
+}
