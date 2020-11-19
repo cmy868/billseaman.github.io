@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Map Scores</title>
+  <title>MAP SCORES</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
@@ -142,86 +142,110 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
+
     <br>
     <br>
     <br>
-   
-    <div class="full" style="padding-left: 5%; padding-right: 5%; line-height: 3vh;">
-  <div class="post single">
-    
-    <div class="four spacing"></div>
+
+    <p><br /></p>
+<div class="full">
     <div class="row">
-      <div class="large-9 large-centered columns">
-        <div>
-          <br>
-          <br>
-          <br>
-          <h2>Map Scores</h2>
-          <p class='info'>
-            
-              <span>
-                
-              </span>
-            
-            <span></span>
-          </p>
-          <div class="full">
-    <div class="row">
-        <div class="large-12 large-centered columns">
-          <img src="../images/assets/Picture50.png" />
+         <div class="autoplay">
+         <div><img src="../images/assets/Picture50.png" width="360" /></div>
+        <div><img src="../images/portfolio/map2.jpg" width="360" /></div>
+        <div><img src="../images/portfolio/map1.jpg" width="540" /></div>
+        <div><img src="../images/portfolio/map3.jpg" width="360" /></div>
+        <div><img src="../images/portfolio/map4.jpg" width="360" /></div>
+        <div><img src="../images/portfolio/map5.jpg" width="360" /></div>
+        <div><img src="../images/portfolio/map6.jpg" width="360" /></div>
+        <div><img src="../images/portfolio/map7.jpg" width="360" /></div>
         </div>
     </div>
+<br />
+ <br />
+<div class="Text_works" style="margin-left: 20%; margin-right: 20%; line-height:normal;">
+<div class="Text_title_works">
+<h2>MAP SCORES</h2>
+<br />
+<p style="line-height:25px; font-size: 18px; padding-top: 1%; color: #999999;;">
+I worked on a series of large format prints using in part old maps from Korea.
+</p>
 </div>
-<p><br /></p>
-
-<p>I worked on a series of large format prints using in part old maps from Korea.</p>
-
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
-<div class="full light-grey">
-  <nav class='wrapper'>
-    <div class="row">
-      <div class="small-6 columns">
-        
-      </div>
-      <div class="small-6 columns">
-        
-      </div>
-    </div>
-  </nav>
+<br />
+<br />
+
 </div>
 
 
-    <!-- <div class="full no-padding footer grey centered-text">
-  <div class="four spacing"></div>
-  <div class="row">
-    <div class="small-12 columns">
-      <ul class="socials">
-        <li><a href="https://twitter.com/baykenney"><i class='fa fa-twitter'></i></a></li>
-        <li><a href="https://www.linkedin.com/in/matthew-kenney-5706a969/"><i class='fa fa-linkedin'></i></a></li>
-      </ul>
-      <p>Copyleft - Bill Seaman.</p>
-      <div class="four spacing"></div>
-      <p class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i>Back to top</a></p>
-    </div>
-  </div>
-  <div class="spacing"></div>
-</div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/billseaman_portfolio_website/js/slick.min.js"></script>
+<script type="text/javascript" src="/billseaman_portfolio_website/js/nav.js"></script>
+<script type="text/javascript">
+  var scrollCount = null;
+var scroll= null;
+var slider = $('.autoplay');
 
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/bower_components/foundation/js/foundation.min.js"></script>
-<script src="/js/jquery.superslides.min.js"></script>
-<script src="/js/slick.min.js"></script>
-<script src="/js/wow.min.js"></script>
-<script src="/js/jquery.validate.js"></script>
-<script src="/bower_components/countto/jquery.countTo.js"></script>
-<script src="/bower_components/appear/jquery.appear.js"></script>
-<script src="/js/app.js"></script> -->
-<script src="/billseaman_portfolio_website/js/nav.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+$('.autoplay').slick({
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: true,
+    variableWidth: true,
+    zIndex: 2,
+    responsive: [
+        {
+        breakpoint: 1024,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+        }
+        }, 
+        {
+        breakpoint: 600,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+        }
+        },
+        {
+        breakpoint: 480,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+        }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+});
+
+slider.on('wheel', (function(e) {
+    e.preventDefault();
+
+    clearTimeout(scroll);
+    scroll = setTimeout(function(){scrollCount=0;}, 35);
+    if(scrollCount) return 0;
+    scrollCount=1;
+
+    if (e.originalEvent.deltaY < 0) {
+        $(this).slick('slickNext');
+    } else {
+        $(this).slick('slickPrev');
+    }
+}));
+
+
+
+
+
+</script>
 
   </body>
+
 </html>
