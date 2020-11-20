@@ -1,0 +1,148 @@
+---
+layout: default 
+section_id: portfolio 
+
+works:
+- title: A Hearing Aid from “Architectural Hearing Aids” or A H A
+  link_to: Poetic/1980.pdf
+  id: 1980
+
+- title: .apt.alt.
+  link_to: Poetic/1981apt.pdf
+  id: 1981
+
+- title: One Pulls Pivots At The Tip Of The Tongue
+  link_to: Poetic/1981one.pdf
+  id: 1981
+
+- title: P L A N E S
+  link_to: Poetic/1981PLANES.pdf
+  id: 1981
+
+- title: S.HE
+  link_to: Poetic/1983.pdf
+  id: 1983
+
+- title: The Water Catalogue
+  link_to: Poetic/1984.pdf
+  id: 1984
+
+- title: Telling Motions
+  link_to: Poetic/1986.pdf
+  id: 1986
+
+- title: Design of The Grip
+  link_to: Poetic/1988Grip.pdf
+  id: 1988
+
+- title: details from the book of notice
+  link_to: Poetic/1988details.pdf
+  id: 1988
+
+- title: Time Book for the Watch Detail
+  link_to: Poetic/1989.pdf
+  id: 1989
+
+- title: f-Mappings
+  link_to: Poetic/1990.pdf
+  id: 1990
+
+- title: A machine of exchange
+  link_to: Poetic/1991exchange.pdf
+  id: 1991
+
+- title: The Exquisite Mechanism of Shivers
+  link_to: Poetic/1991Shivers.pdf
+  id: 1991
+
+- title: Scans and lines of thought
+  link_to: Poetic/1993.pdf
+  id: 1993
+
+- title: Abstraction Machine
+  link_to: Poetic/1994Abstraction.pdf
+  id: 1994
+
+- title: Passage Sets final poem
+  link_to: Poetic/1994Passage.pdf
+  id: 1994
+
+- title: 4quartet abc
+  link_to: Poetic/19954quartet.pdf
+  id: 1995
+
+- title: a rest
+  link_to: Poetic/1996rest.pdf
+  id: 1996
+
+- title: Fragment Constructions, Housings and Displacements
+  link_to: Poetic/1996Fragment.pdf
+  id: 1996
+
+- title: quantum wo
+  link_to: Poetic/1996quantum.pdf
+  id: 1996
+
+- title: Exchange Fields
+  link_to: Poetic/1999Exchange.pdf
+  id: 1999
+
+- title: _Mallarmé
+  link_to: Poetic/2000.pdf
+  id: 2000
+
+- title: inversion
+  link_to: Poetic/2001.pdf
+  id: 2001
+
+- title: Living Architecture
+  link_to: Poetic/2003R_map.pdf
+  id: 2003
+
+- title: A China of Many Senses
+  link_to: Poetic/2004China.pdf
+  id: 2004
+
+- title: EPIPHANY
+  link_to: Poetic/2004EPIPHANY.pdf
+  id: 2004
+
+- title: ArchitecturesAr
+  link_to: Poetic/2004ArchitecturesAr.pdf
+  id: 2004
+
+- title: The Thoughtbody Interface
+  link_to: Poetic/2004Thoughtbody.pdf
+  id: 2004
+
+- title: AOA
+  link_to: Poetic/2008.pdf
+  id: 2008
+
+- title: NEOSENTIENCE
+  link_to: Poetic/2011.pdf
+  id: 2011
+
+- title: Otto Piene
+  link_to: Poetic/2014Otto.pdf
+  id: 2014
+
+- title: s_traits
+  link_to: Poetic/2014s_traits.pdf
+  id: 2014
+
+---
+<br>
+<br>
+<div class="col-md-8 offset-md-2">
+  <div class="text-center">
+  {% for work in page.works %}
+      <b>{{work.id}}.</b>
+      <!-- <iframe src="Poetic/1980.pdf" style="width: 10%;height: 10%;border: none;"></iframe> -->
+      <a href="{{work.link_to}}"><h4>{{work.title}}</h4></a>
+      <br>
+  {% endfor %}
+</div>
+</div>
+
+<script type="text/javascript" src="./js/jquery.js"></script>

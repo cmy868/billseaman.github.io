@@ -142,87 +142,115 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
+
     <br>
     <br>
     <br>
-   
-    <div class="full" style="padding-left: 5%; padding-right: 5%; line-height: 3vh;">
-  <div class="post single">
-    
-    <div class="four spacing"></div>
+
+    <div class="full">
     <div class="row">
-      <div class="large-9 large-centered columns">
-        <div>
-          <br>
-          <br>
-          <br>
-          <h2>Red Dice</h2>
-          <p class='info'>
-            
-              <span>
-                
-              </span>
-            
-            <span></span>
-          </p>
-          <div class="full">
-    <div class="row">
-        <div class="large-12 large-centered columns">
-        <iframe src="https://vimeo.com/showcase/6968648/embed" width="720" height="405" allowfullscreen="" frameborder="0"></iframe>
+        <!-- <a href="https://drive.google.com/file/d/1ZCYbpO9ZfLXG50YvzTF1qaLLSfwstWsI/view?usp=sharing" title="Click to download" download > -->
+        <div class="autoplay">
+            <div><img src="../images/portfolio/red11.png" width="540" /></div>
+            <div><img src="../images/portfolio/red12.png" width="540" /></div>
+            <div><img src="../images/portfolio/red13.png" width="540" /></div>
+            <div><img src="../images/portfolio/red14.png" width="540" /></div>
+            <div><img src="../images/portfolio/red15.png" width="540" /></div>
+            <div><img src="../images/portfolio/red16.png" width="540" /></div>
         </div>
     </div>
-    <div class="Text_works" style="padding-right: 30%">
-    <p style="line-height:25px; font-size: 18px">Red Dice / Des Chiffré (2000) was commissioned by the Canadian National Gallery and is now in their permanent collection. Seaman again worked with Chris Ziegler on the programming of the work. The work presents a text by the Poet Stéphane Mallarmé - Un coup de dés jamais n'abolira le hasard, Dice Thrown Never Will Annul Chance, and an interactive audio/visual meta-text by Seaman. Large scale projections of both the interface and the visual portion of Seaman's audio/visual work are presented. The piece enables the user to view and listen to Mallarmé's text through the use of a Pen/Wacom tablet interface. When the pen touches on words, they are subsequently spoken. Small video icons are called up that register the potential to trigger related segments of an audio/visual text by Seaman. The work also incorporates a "Recombinant" section enabling the user to re-order Seaman's video, generate a new soundtrack by choosing from 144 different musical sections - layering up to seven at a time, as well as recombine Seaman's texts via this pen interface. The work functions as a companion work to Passage Sets / One Pulls Pivots at the Tip of the Tongue which was also influenced by the Mallarmé text.</p>
+    <div class="Text_works" style="margin-left: 20%; margin-right: 20%; line-height:normal; color: darkgray;">
+        <div class="Text_title_works">
+            <br /><br />
+    <h1>Red Dice</h1>
     </div>
+    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://vimeo.com/showcase/6968648/embed" allowfullscreen="" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+                <br /><br />
+            <p>
+                Red Dice / Des Chiffré (2000) was commissioned by the Canadian National Gallery and is now in their permanent
+                collection. Seaman again worked with Chris Ziegler on the programming of the work. The work presents a text by the Poet
+                Stéphane Mallarmé - Un coup de dés jamais n'abolira le hasard, Dice Thrown Never Will Annul Chance, and an interactive
+                audio/visual meta-text by Seaman. Large scale projections of both the interface and the visual portion of Seaman's
+                audio/visual work are presented. The piece enables the user to view and listen to Mallarmé's text through the use of a
+                Pen/Wacom tablet interface. When the pen touches on words, they are subsequently spoken. Small video icons are called up
+                that register the potential to trigger related segments of an audio/visual text by Seaman. The work also incorporates a
+                "Recombinant" section enabling the user to re-order Seaman's video, generate a new soundtrack by choosing from 144
+                different musical sections - layering up to seven at a time, as well as recombine Seaman's texts via this pen interface.
+                The work functions as a companion work to Passage Sets / One Pulls Pivots at the Tip of the Tongue which was also
+                influenced by the Mallarmé text.</p>
+                </div>
+                <br /><br />
 </div>
 
 
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="full light-grey">
-  <nav class='wrapper'>
-    <div class="row">
-      <div class="small-6 columns">
-        
-      </div>
-      <div class="small-6 columns">
-        
-      </div>
-    </div>
-  </nav>
-</div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/billseaman_portfolio_website/js/slick.min.js"></script>
+<script type="text/javascript" src="/billseaman_portfolio_website/js/nav.js"></script>
+<script type="text/javascript">
+  var scrollCount = null;
+var scroll= null;
+var slider = $('.autoplay');
+
+$('.autoplay').slick({
+    infinite: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    pauseOnHover: true,
+    variableWidth: true,
+    zIndex: 2,
+    responsive: [
+        {
+        breakpoint: 1024,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+        }
+        }, 
+        {
+        breakpoint: 600,
+        settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+        }
+        },
+        {
+        breakpoint: 480,
+        settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+        }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
+});
+
+slider.on('wheel', (function(e) {
+    e.preventDefault();
+
+    clearTimeout(scroll);
+    scroll = setTimeout(function(){scrollCount=0;}, 35);
+    if(scrollCount) return 0;
+    scrollCount=1;
+
+    if (e.originalEvent.deltaY < 0) {
+        $(this).slick('slickNext');
+    } else {
+        $(this).slick('slickPrev');
+    }
+}));
 
 
-    <!-- <div class="full no-padding footer grey centered-text">
-  <div class="four spacing"></div>
-  <div class="row">
-    <div class="small-12 columns">
-      <ul class="socials">
-        <li><a href="https://twitter.com/baykenney"><i class='fa fa-twitter'></i></a></li>
-        <li><a href="https://www.linkedin.com/in/matthew-kenney-5706a969/"><i class='fa fa-linkedin'></i></a></li>
-      </ul>
-      <p>Copyleft - Bill Seaman.</p>
-      <div class="four spacing"></div>
-      <p class="back-to-top"><a href="#"><i class="fa fa-chevron-up"></i>Back to top</a></p>
-    </div>
-  </div>
-  <div class="spacing"></div>
-</div>
 
-<script src="/bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/bower_components/foundation/js/foundation.min.js"></script>
-<script src="/js/jquery.superslides.min.js"></script>
-<script src="/js/slick.min.js"></script>
-<script src="/js/wow.min.js"></script>
-<script src="/js/jquery.validate.js"></script>
-<script src="/bower_components/countto/jquery.countTo.js"></script>
-<script src="/bower_components/appear/jquery.appear.js"></script>
-<script src="/js/app.js"></script> -->
-<script src="/billseaman_portfolio_website/js/nav.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+
+
+</script>
 
   </body>
+
 </html>

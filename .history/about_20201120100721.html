@@ -1,0 +1,151 @@
+---
+layout: default
+section_id: pages
+members:
+- name: Bill Seaman
+  position: Researcher, Developer, Artist
+
+bio: Seamans work often explores an expanded media oriented poetics through various technological means Recombinant Poetics. Such works often explore the combination and recombination of media elements and processes in interactive and generative works of art. Seaman enfolds image/music/text relations in these works, often creating all of the media elements and articulating the operative media-processes involved. He is self-taught as a musician/composer. Early on he discussed his notion of Structured Improvisation, employing specific fragments of his own improvisations and musical constructions as a compositional method. Initially explored via tape loops and layering processes in the 80's, he now facilitates this compositional methodology using the computer, in particular using the audio program Ableton Live.
+
+grants:
+  - title: 2013 - Bass Connections, Duke University
+
+  - title: 2012 - Duke Institute for Brain Sciences, Duke University
+
+  - title: 2009 - Council for the Arts, Major Collaboration Grant, Duke University
+    type: LWexner Museum - Video Artist Residency
+
+  - title: 2009 - Wexner Museum - Video Artist Residency
+
+  - title: 2005 - Video Production Grant - Avid / Boston Cyberarts
+
+  - title: 2005 - Large Format Photographic Signs - Castle Graphics / Boston Cyberarts
+
+  - title: 2003 - Rockefeller Grant Nominee
+
+  - title: 2003 - Wexner - Video Artist Residency
+
+  - title: 2003 - Artslink Travel Grant
+
+  - title: 2003 - Leonardo Award for Excellence, for “OULIPO | vs | Recombinant Poetics”,
+
+  - title: 2003 - Leonardo Digital Salon, 34:5 Edited by Christiane Paul
+
+  - title: 2002 - Langlois Foundation, Poly-sensing Environment
+    type: with Dr. Ingrid Verbauwhede, UCLA, Electrical Engineering, Mark Hanson, Bell Labs
+    location: Los Angeles, CA
+
+  - title: 2002 - Fulbright Distinguished American Scholar, Wellington
+    location: New Zealand
+
+  - title: 2001 - Chancellor’s Fund for Academic Border Crossing, UCLA
+    type: with Dr. Ingrid Verbauwhede, Electrical Engineering
+    location: Los Angeles, CA
+
+  - title: 1996-99 - Research Fellow, Interactive Art University of Wales
+    type: CAIIA-Centre for Advanced Inquiry in Interactive Arts
+    location: Caerleon, Wales
+
+  - title: 1999-2001 - Intel Research Gift
+    location: L.A., C.A.
+
+  - title: 1998 - Industrial Forum Award Hannover
+    location: Germany
+
+  - title: 1996 - Bonn Videonale Prize Bonn
+    location: Germany
+
+  - title: 1995 - Project Grant, Australian Film Commission
+    location: Sydney, Australia
+
+  - title: 1995 - International German Video Art Prize
+    location: Baden Baden, Germany
+
+  - title: 1995 - Travel Grant, Australian Film Commission
+    location: Sydney, Australia
+
+  - title: 1995 - Interactive Art, Prix Ars Electronica
+      location: Linz, Austria
+
+  - title: 1992 - Interactive Art, Prix Ars Electronica
+    location: Linz, Austria
+  
+  - title: 1990-91 - Travel Grant, New Image Research, Australian Film Commission
+    location: Sydney, Australia
+    
+  - title: 1991 - National Tour Grant, New Zealand, Queen Elizabeth II Arts Council
+    location: Wellington, New Zealand
+    
+  - title: 1989 - Travel Grant, Australian Video Festival
+    location: Sydney Australia
+
+  - title: 1987 - Fellowship, Massachusetts State Council Artist
+    location: Boston, Massachusetts
+
+  - title: 1987 - Cannon Europa Prize, World Wide Video Festival
+    location: Den Haag, Holland
+
+  - title: 1987 - Cat Fund Interarts Grant, National Endowment for the Arts
+    location: Washington, D.C.
+  
+  - title: 1986 - Massachusetts Production Grant, Massachusetts State Council on the Arts and Humanities
+    location: Boston, Massachusetts
+
+  - title: 1986 - Fusion/Fission Grant, Real Art Ways
+    location: Boston, Massachusetts
+
+  - title: 1986 - Awards in the Visual Arts, Rockefeller Foundation
+    location: Winston-Salem, N. Carolina
+
+  - title: 1986 - Finalist, Artist Foundation
+    location: Hartford, Connecticut
+
+  - title: 1985 - Massachusetts Production Grant, Massachusetts State Council on the Arts and Humanities
+    location: Boston, Massachusetts
+  
+  - title: 1985 - Monte Verite Invitational Prize
+    location: Locarno, Switzerland
+
+  - title: 1985 - First Prize, 2nd International Biennial
+    location: Ljubljana, Yugoslavia
+
+  - title: 1985 - Best Sound, Geneva International Video Festival
+    location: Geneva, Switzerland
+
+  - title: 1979 - First Prize, San Francisco Art Institute Sound Art
+    location: San Francisco, California
+---
+
+<br>
+<br>
+<br>
+  <div class="row">
+    {% for member in page.members %}
+      <div class="col-md-8 offset-md-2">
+        <div class="member">
+          <img src="https://lh3.googleusercontent.com/n4Qh_uYiOVHfD9b8ocPrljVuKkPfGfCauE-Uljf15I31_HtuA6YlanvPqU5IVQj-OIzOVog3JBEfcM7ry7WyeUssvFQVT4rcWW0Yg_SRgsolA5nYam6tVMQ7A_4Q7xpx83bSFMaC=w2400" alt="" >
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+   <div class="col-md-8 offset-md-2">
+        <h2 style="color:royalblue;">Bio</h2>
+        <hr><hr>
+      <p style="color: #999999;">{{page.bio}}</p>
+  </div>
+</div>
+<hr><hr>
+<div class="full">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+            <h2 style="color:royalblue;">Grants and Awards</h2>
+            <hr><hr>
+            {% for grant in page.grants %}
+                <h3 style="color: #999999;">{{grant.title}}</h3>
+                <p style="color: #999999;">{{grant.type}}</p>
+                <p style="color: #999999;">{{grant.location}}</p>
+            {% endfor %}
+        </div>
+</div>
+<hr><hr>
+<script type="text/javascript" src="./js/jquery.js"></script>

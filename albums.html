@@ -7,6 +7,10 @@ albums:
   link_to: https://sites.google.com/view/leavingtapedust/tape-dust/the-seaman-and-the-tattered-sail?authuser=0
   img: img5.jpg
 
+- title: Seaman_Bandcamp Site
+  link_to: https://billseaman.bandcamp.com/music
+  img: albums.jpg
+
 - title: f (noir)
   link_to: http://eileanrec.bandcamp.com/album/f-noir
   img: img4.jpg
@@ -28,11 +32,11 @@ albums:
   img: img2.jpg
 
 - title: The Ephiphanies
-  link_to: https://billseaman.bandcamp.com/releases
+  link_to: https://billseaman.bandcamp.com/album/the-epiphanies
   img: img1.jpg
 
 - title: The Topologies of Blue
-  link_to: https://billseaman.bandcamp.com/releases
+  link_to: https://billseaman.bandcamp.com/album/the-topologies-of-blue
   img: img7.jpg
 
 - title: Layers of Memory in the Quiet Voice of Motion
@@ -55,6 +59,10 @@ albums:
   link_to: https://billseaman.bandcamp.com/album/inversion
   img: img12.jpg
 
+- title: The Exquisite Mechanism of Shivers
+  link_to: images/portfolio/EXText%20on%20the%20work.pdf
+  img: Picture52.png
+
 ---
 
 
@@ -70,6 +78,7 @@ albums:
                     {% for album in page.albums %}
                     <a href="{{album.link_to}}">
                     <img src="images/albums/{{album.img}}" height="300" width="300" alt="">
+                    <h6>{{album.title}}</h6>
                     </a>
                     {% endfor %}
             </div>

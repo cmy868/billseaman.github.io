@@ -1,7 +1,7 @@
 ---
 layout: subpagepost
 section_id: portfolio
-title: Homeostatic Range
+title:   Home Homeostatic Range 
 ---
 <div class="full">
     <div class="row">

@@ -24,7 +24,7 @@ title: Making a Path Where Before There was None
     <br>
     I set up two stakes and walked back and forth for 8 hours. A path was literally worn. 
     <br>
-    I was intereste, in displaying both a seriousness and a sense of Humor . The reference to the “Ode” also pointed to it as a pro-musical score – a kind of sung poem (made in deference to Silence – Cage’s 4’33”)
+    I was interested, in displaying both a seriousness and a sense of Humor . The reference to the “Ode” also pointed to it as a proto-musical – a kind of sung poem (made in deference to Silence – Cage’s 4’33”)
     <br>
     <br>
     Later, DNA  Hoover, a close friend, filled in the path and technically erased it. We often refer to the Erased DeKooning Drawing that Rauchenberg had done in 1953 as a comparative work (to that of Hoover).  

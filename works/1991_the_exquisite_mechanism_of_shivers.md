@@ -66,12 +66,12 @@ title: The Exquisite Mechanism of Shivers
     Dec. 10, 1991 / June 29, 1993    
 </p>
 <br>
-<h2>The Bondary Rider  -  9th Biennale of Sydney</h2>
+<h2>The Boundary Rider  -  9th Biennale of Sydney</h2>
 <br>
 <div style="text-align: center;"><img src="../images/portfolio/Exq2.jpg" width="720"></div>
 <p style="line-height:25px; font-size: 18px; padding-top: 1%; color: #666;">
     <br>
-    For the The Bondary Rider  -  9th Biennale of Sydney a special wall was constructed.   
+    For the Boundary Rider  -  9th Biennale of Sydney a special wall was constructed.   
    <br><br>
     A series of 10 rear screen video projectors were used in a sequence where sentence after sentence was being constructed one image/music/text module at a time, built across the 10 screens, then beginning back at screen 1. The work was quite uncanny (for the time) because the large screen images looked flat on the wall! Additionally a kiosk with computer and video screen were presented so participants could interact with the system in a more personal manner.
 </p>

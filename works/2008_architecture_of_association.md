@@ -5,6 +5,7 @@ title: The Architecture of Association
 ---
 <div class="Text_works">
 <h2>2010  The Architecture of Association [Version 3.0] Generative Video / Text, Collaboration with Daniel Howe, Renaissance Computing Center, Chapel Hill</h2>
+   <iframe src="https://player.vimeo.com/video/423155658" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             <img src="../images/portfolio/AOA1.png">
             <img src="../images/portfolio/AOA2.png">
             <img src="../images/portfolio/AOA3.png">
@@ -14,7 +15,6 @@ title: The Architecture of Association
     <a href="http://www.mrl.nyu.edu/~dhowe/video/AoA/"><h3>Additional Documentation</h3></a>
 <br>
                 <iframe src="https://player.vimeo.com/video/431481058" width="640" height="320" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                <iframe src="https://player.vimeo.com/video/423155658" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     <p style="line-height:25px; font-size: 18px">
       <br>
    The Architecture of Association is a large-scale, generative artwork that draws associative links between media elements to form an evolving visual collage. A distributed flow of image, video and poetic text is "intelligently" distributed over a number of display surfaces. As the work is emergent in nature, it does not repeat sequences of images or texts but instead dynamically generates a continuously recombinant network of associations. In 1995, Seaman coined the term 'Recombinant Poetics' to articulate a set of generative virtual worlds.

@@ -1,7 +1,7 @@
 ---
 layout: subpagepost
 section_id: portfolio
-title: Boxer’s Puzzle
+title: The Boxer’s Puzzle
 ---
 <div class="full">
     <div class="row">
@@ -11,7 +11,7 @@ title: Boxer’s Puzzle
     </div>
     <div class="Text_works" style="padding-right: 30%">
     <h2>The Boxer's Puzzle</h2>
-    <h3>Bill Seaman</h3>
+    <h3>Ellen Sebring and Bill Seaman</h3>
     <h3>1987, 6:23 min, color, sound</h3>
     <p>
     The Boxer's Puzzle suggests an oblique narrative of desire, combining the visual stylization of a music video with a subtle allusiveness and meticulous attention to detail. Using slow motion images and a hypnotic, percussive soundtrack, the artists create a languid, erotic work. A man shadowboxes, his sparring suggesting inner conflict, while a woman is seen in a series of fashion-photo poses, remaining an enigmatic figure, an icon of elusive desire. Seen in isolation, and juxtaposed through syncopated cross-cutting, the man and woman seem caught in the grip of an unreleasable tension, made palpable by the artists' deft editing.
