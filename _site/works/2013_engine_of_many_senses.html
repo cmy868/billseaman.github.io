@@ -10,7 +10,6 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/superslides.css">
@@ -41,13 +40,13 @@
 
 
   <body style="background-color: black;">
-    
+
     <div class='contain-to-grid sticky transparent'>
   <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
     <ul class='title-area' style="list-style-type: none;">
       <li class="">
         <h1>
-          <a href='index.html'>
+          <a href='../index.html'>
             Bill Seaman
           </a>
         </h1>
@@ -66,7 +65,7 @@
 
           
             <li class="">
-              <a href="work.html">Work</a>
+              <a href="../work.html">Work</a>
             </li>
           
         
@@ -74,7 +73,7 @@
 
           
             <li class="">
-              <a href="albums.html">Albums</a>
+              <a href="../albums.html">Albums</a>
             </li>
           
         
@@ -82,7 +81,7 @@
 
           
             <li class="">
-              <a href="books.html">Books</a>
+              <a href="../books.html">Books</a>
             </li>
           
         
@@ -90,7 +89,7 @@
 
           
             <li class="">
-              <a href="Papers.html">Papers</a>
+              <a href="../Papers.html">Papers</a>
             </li>
           
         
@@ -98,7 +97,7 @@
 
           
             <li class="">
-              <a href="PoeticTexts.html">Poetic Texts</a>
+              <a href="../PoeticTexts.html">Poetic Texts</a>
             </li>
           
         
@@ -106,7 +105,7 @@
 
           
             <li class="">
-              <a href="index_gallery.html">Gallery</a>
+              <a href="../index_gallery.html">Gallery</a>
             </li>
           
         
@@ -114,7 +113,7 @@
 
           
             <li class="">
-              <a href="about.html">About</a>
+              <a href="../about.html">About</a>
             </li>
           
         
@@ -122,7 +121,7 @@
 
           
             <li class="">
-              <a href="contact.html">Contact</a>
+              <a href="../contact.html">Contact</a>
             </li>
           
         
@@ -130,7 +129,7 @@
 
           
             <li class="">
-              <a href="CV/Resume_Seaman_02_20_2020.pdf">CV</a>
+              <a href="../CV/Resume_Seaman_02_20_2020.pdf">CV</a>
             </li>
           
         
@@ -140,13 +139,14 @@
   </nav>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
- 
+<div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
     <br>
     <br>
     <br>
-
+   
     <div class="full" style="padding-left: 5%; padding-right: 5%; line-height: 3vh;">
   <div class="post single">
     
@@ -198,7 +198,9 @@
 13) spin - Electron (Spin) computer for Rössler/Seaman
 14) time - Time Computer (T-Computer) for Scott M.Hithcock
 15) analogue - Analogue Computer / Maverick Machine for Gordon Pask
-16) wave - Wave Computer/ Well Stirred – for O. E. Rössler and Hugh Everett the 3rd</p>
+16) wave - Wave Computer/ Well Stirred – for O. E. Rössler and Hugh Everett the 3rd
+ <br />
+    <br /></p>
 
         </div>
       </div>
@@ -217,8 +219,12 @@
     </div>
   </nav>
 </div>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
-   
 
     <!-- <div class="full no-padding footer grey centered-text">
   <div class="four spacing"></div>
@@ -249,4 +255,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
 
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="/billseaman_portfolio_website/js/nav.js"></script>
+  <script>
+      $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+  </script>
 </html>

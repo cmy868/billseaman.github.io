@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body style="background-color: black;">
+
+    {% include subpageheader.html %}
+    <br>
+    <br>
+    <br>
+   
+    {{ content }}
+
+
+    {% include footer.html %}
+
+  </body>
+  <script>
+      $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+</html>

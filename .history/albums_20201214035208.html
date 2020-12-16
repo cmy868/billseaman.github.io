@@ -1,0 +1,130 @@
+---
+layout: default
+section_id: pages
+
+albums:
+- title: light folds
+  link_to: https://sites.google.com/view/leavingtapedust/tape-dust/the-seaman-and-the-tattered-sail?authuser=0
+  img: img5.jpg
+  embed_link: #
+
+- title: Seaman_Bandcamp Site
+  link_to: https://billseaman.bandcamp.com/music
+  img: albums.jpg
+  embed_link: #
+
+- title: f (noir)
+  link_to: http://eileanrec.bandcamp.com/album/f-noir
+  img: img4.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=4066099715/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: Insight Engine
+  link_to: https://sites.google.com/view/leavingtapedust/gathered-dust?authuser=0
+  img: img6.jpg
+  embed_link: #
+
+- title: s_traits
+  link_to: https://sites.google.com/view/leavingtapedust/tape-dust/s_traits
+  img: img0.jpg
+  embed_link: #
+
+- title: Erasures and Displacements
+  link_to: https://eileanrec.bandcamp.com/album/erasures-and-displacements
+  img: img3.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=774117433/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: IMAI Online Catalog
+  link_to: http://www.stiftung-imai.de/content/view/2/3/lang,en
+  img: img2.jpg
+  embed_link: #
+
+- title: The Ephiphanies
+  link_to: https://billseaman.bandcamp.com/album/the-epiphanies
+  img: img1.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=3041028991/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: The Topologies of Blue
+  link_to: https://billseaman.bandcamp.com/album/the-topologies-of-blue
+  img: img7.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=2510989957/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: Layers of Memory in the Quiet Voice of Motion
+  link_to: https://billseaman.bandcamp.com/album/layers-of-memory-in-the-quiet-voice-of-motion-2
+  img: img8.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=3041906376/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: Movements of Dust
+  link_to: https://billseaman.bandcamp.com/album/movements-of-dust
+  img: img9.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=1942173579/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: A Background For The Hybrid Invention Generator
+  link_to: https://billseaman.bandcamp.com/album/a-background-for-the-hybrid-invention-generator
+  img: img10.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=1181003673/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: SEA - Thoughtbody + Songs and Dances of the Neosentient
+  link_to: https://billseaman.bandcamp.com/album/sea-thoughtbody-songs-and-dances-of-the-neosentient
+  img: img11.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=4210793282/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: Inversion
+  link_to: https://billseaman.bandcamp.com/album/inversion
+  img: img12.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=2227040884/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+- title: The Exquisite Mechanism of Shivers
+  link_to: images/portfolio/EXText%20on%20the%20work.pdf
+  img: Picture52.png
+  embed_link: #
+
+- title: P​.​L​.​A​.​N​.​E​.​S.
+  link_to: https://billseaman.bandcamp.com/album/p-l-a-n-e-s?fbclid=IwAR2gTrGzILjkt-43J2RvIJ5tIHhtaPFwqBj9AhCr_Z43zLG-g0PxQmvBU9o
+  img: img13.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=1103346221/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+
+---
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css" />
+
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<body style="background: black" scroll="no" style="overflow: hidden">
+    <div class="col-md-6 offset-md-6">
+            <div class="albums" style=" z-index:1">
+                    {% for album in page.albums %}
+                    <a href="{{album.link_to}}">
+                    <img src="images/albums/{{album.img}}" height="300" width="300" alt="">
+                    <iframe style="border: 0.1px; border-color:rgb(104, 104, 104); border-style: solid; width: 300px; height: 42px; background:rgb(49, 48, 48); "
+                      src="{{album.embed_link}}" seamless>
+                      <a href="{{album.link_to}}">{{album.title}}</a>
+                      </iframe>
+                    <!-- <h6>{{album.title}}</h6> -->
+                    </a>
+                    {% endfor %}
+            </div>
+    </div>
+</body>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+</style>
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/slick.js"></script>
+<script type="text/javascript" src="./js/albums.js"></script>

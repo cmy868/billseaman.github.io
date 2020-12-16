@@ -1,0 +1,50 @@
+---
+layout: default
+section_id: contact
+---
+<br>
+<br>
+<br>
+<div class="container">
+    <div class="col-md-8 offset-md-3">
+        <h1>Bill Seaman</h1>
+        <h3>Media Researcher and Artist</h3>
+        <div style="color: #999999;">
+Co-director of The Emergence Lab<br><br>
+Graduate Program Director<br><br>
+Computational Media, Arts and Cultures<br><br>
+Professor, Department of Art, Art History & Visual Studies<br><br>
+Duke University<br><br>
+Box 90766<br><br>
+114 S. Buchanan Blvd, Room A260, Bay 10, Durham, NC 27708.<br><br>
+
+        <a href="http://www.billseaman.com">http://www.billseaman.com </a>
+        <br>
+        <a href="http://www.fitzpatrick.duke.edu/faculty/william-seaman">http://www.fitzpatrick.duke.edu/faculty/william-seaman</a>
+        <br>
+        <a href="https://aahvs.duke.edu/people/profile/william-seaman">https://aahvs.duke.edu/people/profile/william-seaman</a>
+    <link href="contact-form.css" rel="stylesheet">
+    </div>
+    </div>
+</div>
+<form action="contact.php" method="post">
+    <div class="elem-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+        <label for="title">Contact Subject</label>
+        <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password"
+            pattern=[A-Za-z0-9\s]{8,60}>
+    </div>
+    <div class="elem-group">
+        <label for="message">Write your message</label>
+        <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+</form>
+<script type="text/javascript" src="./js/jquery.js"></script>

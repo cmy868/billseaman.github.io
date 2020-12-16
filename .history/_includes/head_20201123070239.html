@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link href="{{ site.baseurl }}/css/contact-form.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/superslides.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/slick-theme.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/slick.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/linea-styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/linea-arrows-styles.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/gallery_style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <!--<link rel="stylesheet" href="{{ "/css/chivo.css" | prepend: site.baseurl }}"/>-->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+
+  <script src="{{ site.baseurl }}/bower_components/modernizr/modernizr.js"></script>
+
+  
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/_site/feed.xml">
+</head>

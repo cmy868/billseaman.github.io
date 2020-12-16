@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body style="background-color: black;">
+
+    {% include subpageheader.html %}
+    <br>
+    <br>
+    <br>
+   
+    {{ content }}
+
+
+    {% include footer.html %}
+
+  </body>
+  <script>
+      $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+  </script>
+</html>

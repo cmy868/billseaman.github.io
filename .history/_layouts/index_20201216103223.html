@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {{ content }}
+<script>
+  $(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
+    <div class="index-footer">
+        <footer>
+          &copy; Copyright 2020 Bill Seaman.All Rights Reserved.
+        </footer>
+      </div>
+  </body>
+</html>

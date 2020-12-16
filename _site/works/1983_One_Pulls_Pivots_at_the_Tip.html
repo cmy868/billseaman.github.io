@@ -10,7 +10,6 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/superslides.css">
@@ -140,7 +139,9 @@
   </nav>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+<div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
     <br>
     <br>
@@ -211,6 +212,11 @@ Key Concepts: generative literature, textual displacement, linguistic collisions
     </div>
   </nav>
 </div>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
 
     <!-- <div class="full no-padding footer grey centered-text">
@@ -242,4 +248,12 @@ Key Concepts: generative literature, textual displacement, linguistic collisions
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
 
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="/billseaman_portfolio_website/js/nav.js"></script>
+  <script>
+      $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+  </script>
 </html>

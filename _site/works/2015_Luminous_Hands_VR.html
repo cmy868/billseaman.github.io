@@ -10,7 +10,6 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/superslides.css">
@@ -140,7 +139,9 @@
   </nav>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+<div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
     <br>
     <br>
@@ -181,6 +182,8 @@
     <p>
         The work “Luminous Hands” is a collaboration initiated by The Fitzpatrick Center For Photonics (Seaman and Johnsen are both members), arising out of their meeting at last years photonics conference. It includes images of luminous sea creatures taken by Duke Biologist Sonke Johnsen, Ph.D. Sonke’s biological creatures are positioned in a generative 3D world [Seaman and Berreth have made a number of different generative computational spaces in the past]; and accompanied by a generative, location sensitive musical score by Seaman – Duke Media Arts + Sciences (now Computational Media, Arts and Cultures). Seaman is interested in generative systems and what he calls “Computational Creativity”. Seaman is additionally a professor in the department of Art, Art History &amp; Visual Studies; with programming, model creation, and additional design and behaviors by Todd Berreth. Seaman co-runs The Emergence Lab with John Supko from the music department. This lab explores generative image, music and text research which is both poetic and pragmatic. “Luminous Hands” is just one of the ongoing research projects coming out of the lab. Seaman and Supko co-teach the ‘Generative Arts’ class in the lab which attracts PhD students from Music; and Art, Art History &amp; Visual Studies; a student from the Experimental and Documentary Arts masters program; and advanced undergrads from A. AH &amp; VS. We have also attracted a top visiting scholar to sit in on the class, and participate, from the Literature department. Thus the class functions as a perfect example of vertical integration in learning combined with what Seaman calls a multi-perspective interdisciplinary approach to knowledge production. We are hoping to show “Luminous Hands” in the Link if it is accepted. It is a perfect example of interdisciplinary collaborative research at Duke. We also hope to develop an experimental interface to the work to enhance the possibilities for human / computer interaction, thus also enfolding additional computer science concepts in the work.
     </p>
+     <br />
+    <br />
     </div>
     </div>
 
@@ -201,6 +204,11 @@
     </div>
   </nav>
 </div>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
 
     <!-- <div class="full no-padding footer grey centered-text">
@@ -232,4 +240,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
 
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="/billseaman_portfolio_website/js/nav.js"></script>
+  <script>
+      $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+  </script>
 </html>

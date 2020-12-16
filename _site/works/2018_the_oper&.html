@@ -10,7 +10,6 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/billseaman_portfolio_website/css/superslides.css">
@@ -140,7 +139,9 @@
   </nav>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+<div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
     <br>
     <br>
@@ -185,8 +186,11 @@
         <br /><br />
         The team behind THE_OPER&amp; (pronounced “the operand”) is an accomplished one. John Supko, a Duke music professor and acclaimed composer, partnered with Duke art professor and “recombinant poetics” pioneer Bill Seaman to build both text and music; Seaman also contributed high-definition video. Award-winning director and designer Jim Findlay, a frequent Duke Performances collaborator and a Duke alumnus, is the production designer and director. Narrated by Seaman and sung by Boston’s heralded eight-voice Lorelei Ensemble, THE_OPER&amp; is a multidisciplinary collaboration that evokes the opera of Robert Ashley, the linguistic games of Raymond Roussel, and the experimental productions of Robert Wilson. An allegory for our uncertain times and an examination of our interface with the technology we create, THE_OPER&amp; asks essential questions about the kind of future we may pursue.
     </p>
+     <br />
+    <br />
     </div>
     </div>
+
 
         </div>
       </div>
@@ -205,6 +209,11 @@
     </div>
   </nav>
 </div>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-wrapper").fadeOut("slow");
+    });
+  </script>
 
 
     <!-- <div class="full no-padding footer grey centered-text">
@@ -236,4 +245,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
 
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="/billseaman_portfolio_website/js/nav.js"></script>
+  <script>
+      $(window).on("load", function () {
+          $(".loader-wrapper").fadeOut("slow");
+        });
+  </script>
 </html>
