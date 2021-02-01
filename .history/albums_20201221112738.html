@@ -6,62 +6,69 @@ albums:
 - title: light folds
   link_to: https://sites.google.com/view/leavingtapedust/tape-dust/the-seaman-and-the-tattered-sail?authuser=0
   img: img5.jpg
-
-- title: Seaman_Bandcamp Site
-  link_to: https://billseaman.bandcamp.com/music
-  img: albums.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=534626412/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: f (noir)
   link_to: http://eileanrec.bandcamp.com/album/f-noir
   img: img4.jpg
-
-- title: Insight Engine
-  link_to: https://sites.google.com/view/leavingtapedust/gathered-dust?authuser=0
-  img: img6.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=4066099715/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: s_traits
   link_to: https://sites.google.com/view/leavingtapedust/tape-dust/s_traits
   img: img0.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=2708713058/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+    
 
 - title: Erasures and Displacements
   link_to: https://eileanrec.bandcamp.com/album/erasures-and-displacements
   img: img3.jpg
-
-- title: IMAI Online Catalog
-  link_to: http://www.stiftung-imai.de/content/view/2/3/lang,en
-  img: img2.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=774117433/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: The Ephiphanies
   link_to: https://billseaman.bandcamp.com/album/the-epiphanies
   img: img1.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=3041028991/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: The Topologies of Blue
   link_to: https://billseaman.bandcamp.com/album/the-topologies-of-blue
   img: img7.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=2510989957/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: Layers of Memory in the Quiet Voice of Motion
   link_to: https://billseaman.bandcamp.com/album/layers-of-memory-in-the-quiet-voice-of-motion-2
   img: img8.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=3041906376/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: Movements of Dust
   link_to: https://billseaman.bandcamp.com/album/movements-of-dust
   img: img9.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=1942173579/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: A Background For The Hybrid Invention Generator
   link_to: https://billseaman.bandcamp.com/album/a-background-for-the-hybrid-invention-generator
   img: img10.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=1181003673/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: SEA - Thoughtbody + Songs and Dances of the Neosentient
   link_to: https://billseaman.bandcamp.com/album/sea-thoughtbody-songs-and-dances-of-the-neosentient
   img: img11.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=4210793282/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: Inversion
   link_to: https://billseaman.bandcamp.com/album/inversion
   img: img12.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=2227040884/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 - title: The Exquisite Mechanism of Shivers
   link_to: images/portfolio/EXText%20on%20the%20work.pdf
   img: Picture52.png
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=3708374496/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
+   
+
+- title: P​.​L​.​A​.​N​.​E​.​S.
+  link_to: https://billseaman.bandcamp.com/album/p-l-a-n-e-s?fbclid=IwAR2gTrGzILjkt-43J2RvIJ5tIHhtaPFwqBj9AhCr_Z43zLG-g0PxQmvBU9o
+  img: img13.jpg
+  embed_link: https://bandcamp.com/EmbeddedPlayer/album=1103346221/size=small/bgcol=333333/linkcol=0f91ff/artwork=none/transparent=true/
 
 ---
 
@@ -78,7 +85,11 @@ albums:
                     {% for album in page.albums %}
                     <a href="{{album.link_to}}">
                     <img src="images/albums/{{album.img}}" height="300" width="300" alt="">
-                    <h6>{{album.title}}</h6>
+                    <iframe style="border: 0.1px; border-color:rgb(104, 104, 104); border-style: solid; width: 300px; height: 42px; background:rgb(49, 48, 48); "
+                      src="{{album.embed_link}}" seamless>
+                      <a href="{{album.link_to}}" style="z-index: 1;">{{album.title}}</a>
+                      </iframe>
+                    <!-- <h6>{{album.title}}</h6> -->
                     </a>
                     {% endfor %}
             </div>
